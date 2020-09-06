@@ -10,11 +10,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 data = pd.read_csv('names.csv', index_col= 'id')
 
 # making graphics
-fig = px.density_mapbox(data, 
-                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 15,
-                        center=dict(lat=34.012, lon=-116.168), zoom=10,
-                        mapbox_style="stamen-terrain"
-                       )
+
 
 
 # or plotly.express as px
@@ -51,8 +47,7 @@ app.layout = html.Div(children=[
     '''),
 
     dcc.Graph(
-        id='example-graph',
-        figure=fig
+        id='graph'
     ),
 
     dcc.RangeSlider(
@@ -66,9 +61,18 @@ app.layout = html.Div(children=[
     )
 ])
 
-# @app.callback(
-#     dash.dependencies.Output('slider-output-container', 'children'),
-#     [dash.dependencies.Input('grade-slider', 'value')])
+@app.callback(
+     dash.dependencies.Output('graph', 'figure'),
+     [dash.dependencies.Input('grade-slider', 'value')])
+def update_graph(grade_bounds):
+	[min_g, max_g] = grade_bounds
+	fil_data = data[(data['grade'] >= min_g) & (data['grade']<= max_g)]
+	fig = px.density_mapbox(fil_data, 
+	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 15,
+	                        center=dict(lat=34.012, lon=-116.168), zoom=10,
+	                        mapbox_style="stamen-terrain"
+	                       )
+	return fig	
 
 
 if __name__ == '__main__':
