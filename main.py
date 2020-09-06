@@ -40,10 +40,11 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.H1('Where to climb? A visualization of better crags to hit.'),
 
-    html.Div(children='''
-        Dash: A web application framework for Python.
+    html.Div('''
+        Select the grades you want to climb and filter for commitment(no X-rated etc). 
+        Then the heatmap will tell you where the bests crags are. 
     '''),
 
     dcc.Graph(
@@ -69,9 +70,12 @@ def update_graph(grade_bounds):
 	fil_data = data[(data['grade'] >= min_g) & (data['grade']<= max_g)]
 	fig = px.density_mapbox(fil_data, 
 	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 15,
+	                        hover_name = 'name', 
+	                        hover_data = {'longitude':False, 'latitude':False, 'stars':True, 'rating':True},
 	                        center=dict(lat=34.012, lon=-116.168), zoom=10,
 	                        mapbox_style="stamen-terrain"
 	                       )
+
 	return fig	
 
 
