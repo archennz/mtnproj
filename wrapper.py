@@ -44,16 +44,16 @@ class route():
 		self.location = location
 		self.longitude = longitude
 		self.latitude = latitude
-		self.safety = self.check_safety()
-		self.grade = self.convert_grade()
+		self.check_safety()
+		self.convert_grade()
 
 	def convert_json(json):
 		"""reads json to make a route""" 
 		new_route = route(json['id'], json['name'], json['type'], json['rating'],
 			json['stars'], json['starVotes'], json['pitches'], json['location'],
 			json['longitude'], json['latitude'])
-		new_route.check_safety()
-		new_route.convert_grade()
+		#new_route.check_safety()
+		#new_route.convert_grade()
 		return new_route
 
 	def convert_grade(self):
