@@ -1,51 +1,51 @@
-id,rating,stars,type,longitude,latitude
-105722065,5.10b,4.8,Trad,-116.1713,34.013
-105721816,5.10b R,4.9,Trad,-116.1476,34.0389
-105725122,5.11a/b,4.9,Trad,-116.1716,34.0198
-105721822,5.12a,4.9,Trad,-116.1691,34.0141
-105725101,5.10c,4.9,Trad,-116.0572,34.006
-105721624,5.10a,4.7,Trad,-116.0587,34.0047
-105722197,5.10d,4.8,Trad,-116.1557,34.0244
-105722113,5.11b/c,4.8,Trad,-116.1629,34.0212
-105722353,5.11a,4.7,Trad,-116.1722,34.0321
-105722548,5.10d,4.8,Trad,-116.18,34.0202
-105722356,5.11c,4.8,Trad,-116.1722,34.0321
-105725659,5.11a,4.7,Trad,-116.1435,33.9895
-105721615,5.7+,4.5,Trad,-116.1639,34.0166
-105721792,5.10c,4.7,Trad,-116.1691,34.0141
-105721747,5.6,4.3,Sport,-116.1524,33.9844
-105722344,5.10b R,4.6,Trad,-116.1713,34.0123
-105722179,5.8-,4.5,Trad,-116.1682,34.0146
-105722572,5.11a R,4.6,Trad,-116.158,34.0245
-105722359,5.9,4.5,Trad,-116.1574,34.0256
-105725788,5.10a/b,4.5,Trad,-116.1471,34.0386
-105721831,5.10a,4.5,Trad,-116.1469,33.9998
-105722086,5.10b PG13,4.5,Trad,-116.1661,34.0187
-105722743,5.10a,4.5,Trad,-116.1777,34.0227
-105721666,5.10a,4.5,Trad,-116.1562,34.0251
-105722305,5.8,4.3,Trad,-116.1788,34.0217
-105722431,5.10a,4.4,Trad,-116.1473,34.0515
-105721861,5.8+,4.4,Trad,-116.1471,34.0386
-105722716,5.9,4.4,Trad,-116.199,34.0292
-105723478,5.9,4.4,Trad,-116.199,34.0292
-105721849,5.10b,4.3,Trad,-116.1778,34.0239
-105724099,5.9,4.3,Trad,-116.1439,34.0372
-105723325,5.10a,4.3,Trad,-116.1788,34.0217
-105721750,5.8,4.1,Sport,-116.1524,33.9844
-105722188,5.9,4.2,Trad,-116.1551,34.0246
-105721828,5.8,4.1,Trad,-116.14,33.9945
-105722428,5.10c,4.3,Trad,-116.1787,34.0233
-105722842,5.9,4.2,Trad,-116.1468,34.0363
-105725389,5.10a,4.2,Trad,-116.1778,34.0239
-105722749,5.11a,4.5,Sport,-116.1777,34.0227
-105722050,5.10a,4.2,Trad,-116.1712,34.0105
-105721930,5.4,4,Trad,-116.1594,34.015
-105725620,5.10b,4.2,Trad,-116.1651,34.0227
-105724777,5.9,4.2,Trad,-116.0682,33.9952
-106683237,5.10b/c,4.2,Trad,-116.1551,34.0246
-105721654,5.8,4.1,Trad,-116.163,34.0148
-105722467,5.10a,4.2,Trad,-116.1792,34.0246
-105725401,5.9+,4.1,Trad,-116.1777,34.0215
-105725131,5.11a,4.1,Trad,-116.163,34.0148
-105724486,5.10a,4.1,Sport,-116.1699,34.0696
-105722146,5.10b,4.1,Trad,-116.0712,33.9504
+id,name,type,rating,stars,starVotes,pitches,location,longitude,latitude,safety,grade
+105722065,Illusion Dweller,Trad,5.10b,4.8,820,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Sentinel', 'The Sentinel - West Face']",-116.1713,34.013,S,10
+105721816,Figures on a Landscape (aka Monkey on My Back),Trad,5.10b R,4.9,174,3,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'North Astro Dome', 'North Astro Dome - Northeast Face']",-116.1476,34.0389,R,10
+105725122,Coarse and Buggy,Trad,5.11a/b,4.9,313,1,"['California', 'Joshua Tree National Park', 'Roadside Rocks', 'Dihedral Rock']",-116.1716,34.0198,S,11
+105721822,Leave it to Beaver (aka The Beaver),Trad,5.12a,4.9,95,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Sports Challenge Rock', 'Sports Challenge Rock - East Face']",-116.1691,34.0141,S,12
+105725101,Rubicon,Trad,5.10c,4.9,338,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Rubicon Formation']",-116.0572,34.006,S,10
+105721624,Bird of Fire,Trad,5.10a,4.7,568,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles in the Sky (Northeast Face)']",-116.0587,34.0047,S,10
+105722197,EBGB's,Trad,5.10d,4.8,121,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'EBGB Block Area']",-116.1557,34.0244,S,10
+105722113,Hot Rocks,Trad,5.11b/c,4.8,151,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Rock Hudson']",-116.1629,34.0212,S,11
+105722353,O'Kelley's Crack,Trad,5.11a,4.7,266,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Rusty Wall']",-116.1722,34.0321,S,11
+105722548,Imaginary Voyage,Trad,5.10d,4.8,82,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Imaginary Voyage Formation']",-116.18,34.0202,S,10
+105722356,Wangerbanger,Trad,5.11c,4.8,182,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Rusty Wall']",-116.1722,34.0321,S,11
+105725659,Heart of Darkness,Trad,5.11a,4.7,319,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Oyster Bar Area', 'Conrad Rock', 'Conrad Rock - Heart of Darkness Corridor']",-116.1435,33.9895,S,11
+105721615,Double Cross,Trad,5.7+,4.5,1317,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - West Face']",-116.1639,34.0166,S,7
+105721792,Clean and Jerk,Trad,5.10c,4.7,330,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Sports Challenge Rock', 'Sports Challenge Rock - East Face']",-116.1691,34.0141,S,10
+105721747,SW Corner,Sport,5.6,4.3,845,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Ryan Campground', 'Headstone Rock']",-116.1524,33.9844,S,6
+105722344,Run For Your Life,Trad,5.10b R,4.6,197,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Tumbling Rainbow Formation']",-116.1713,34.0123,R,10
+105722179,Sail Away,Trad,5.8-,4.5,1087,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Hidden Tower']",-116.1682,34.0146,S,8
+105722572,Big Moe,Trad,5.11a R,4.6,189,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Side']",-116.158,34.0245,R,11
+105722359,Touch and Go,Trad,5.9,4.5,650,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Touch and Go Face']",-116.1574,34.0256,S,9
+105725788,Solid Gold,Trad,5.10a/b,4.5,164,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - Northeast Face']",-116.1471,34.0386,S,10
+105721831,Exorcist,Trad,5.10a,4.5,398,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'East Wall Inner (Exorcist Area)']",-116.1469,33.9998,S,10
+105722086,Sidewinder,Trad,5.10b PG13,4.5,213,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Sidewinder Rock - West Face']",-116.1661,34.0187,PG13,10
+105722743,Tax Man,Trad,5.10a,4.5,358,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'IRS Wall']",-116.1777,34.0227,S,10
+105721666,Heart and Sole,Trad,5.10a,4.5,279,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,10
+105722305,Dappled Mare,Trad,5.8,4.3,538,4,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Lost Horse Wall', 'Lost Horse Wall - Right Side']",-116.1788,34.0217,S,8
+105722431,Dangling Woo Li Master,Trad,5.10a,4.4,93,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Central Wonderland', 'Diarrhea Dome', 'Bighorn Mating Grotto']",-116.1473,34.0515,S,10
+105721861,Breakfast of Champions,Trad,5.8+,4.4,187,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - Northeast Face']",-116.1471,34.0386,S,8
+105722716,Ace of Spades,Trad,5.9,4.4,205,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'White Cliffs of Dover', 'White Cliffs of Dover - Left Side']",-116.199,34.0292,S,9
+105723478,Popular Mechanics,Trad,5.9,4.4,277,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'White Cliffs of Dover', 'White Cliffs of Dover - Left Side']",-116.199,34.0292,S,9
+105721849,Poodles are People Too,Trad,5.10b,4.3,301,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,10
+105724099,High Strung,Trad,5.9,4.3,159,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'Foolproof Tower']",-116.1439,34.0372,S,9
+105723325,Bird on a Wire,Trad,5.10a,4.3,358,3,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Lost Horse Wall', 'Lost Horse Wall - Right Side']",-116.1788,34.0217,S,10
+105721750,Cryptic,Sport,5.8,4.1,519,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Ryan Campground', 'Headstone Rock']",-116.1524,33.9844,S,8
+105722188,Pope's Crack,Trad,5.9,4.2,537,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - South Face']",-116.1551,34.0246,S,9
+105721828,Walk on the Wild Side,Trad,5.8,4.1,474,3,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Saddle Rocks', 'Saddle Rocks - Skirt', 'Saddle Rocks - Skirt  (West Face)']",-116.14,33.9945,S,8
+105722428,Anacram,Trad,5.10c,4.3,92,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Freeway Wall', 'Upper Freeway Wall']",-116.1787,34.0233,S,10
+105722842,Room To Shroom,Trad,5.9,4.2,193,1,"['California', 'Joshua Tree National Park', 'Barker Dam Area', 'Room To Shroom Area']",-116.1468,34.0363,S,9
+105725389,Prepackaged,Trad,5.10a,4.2,281,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,10
+105722749,Alf's Arete,Sport,5.11a,4.5,75,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'IRS Wall']",-116.1777,34.0227,S,11
+105722050,Loose Lady,Trad,5.10a,4.2,327,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Real Hidden Valley Vicinity', 'Houser Buttress Area', 'Houser Buttress']",-116.1712,34.0105,S,10
+105721930,The Eye,Trad,5.4,4,627,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Cyclops Rock']",-116.1594,34.015,S,4
+105725620,Rollerball,Trad,5.10b,4.2,133,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Rollerball Formation']",-116.1651,34.0227,S,10
+105724777,Colorado Crack,Trad,5.9,4.2,365,1,"['California', 'Joshua Tree National Park', 'Jumbo Rock Area', ""Conan's Corridor""]",-116.0682,33.9952,S,9
+106683237,"Pope's Crack, Direct Finish",Trad,5.10b/c,4.2,79,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - South Face']",-116.1551,34.0246,S,10
+105721654,The Flake,Trad,5.8,4.1,481,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,8
+105722467,Head Over Heals,Trad,5.10a,4.2,117,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Right)']",-116.1792,34.0246,S,10
+105725401,Rock Candy,Trad,5.9+,4.1,180,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,9
+105725131,Left Ski Track,Trad,5.11a,4.1,158,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,11
+105724486,Dos Chi Chis,Sport,5.10a,4.1,128,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'Siberia']",-116.1699,34.0696,S,10
+105722146,Light Sabre,Trad,5.10b,4.1,121,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', 'Virgin Islands Area', 'Star Wars Rock']",-116.0712,33.9504,S,10
