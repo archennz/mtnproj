@@ -113,8 +113,9 @@ def update_graph(grade_bounds, safety_fil):
 	                        hover_data = {'longitude':False, 'latitude':False, 'stars':True, 'rating':True},
 	                        #colorscale = Jet,
 	                        center=dict(lat=34.012, lon=-116.168), zoom=10,
-	                        mapbox_style="stamen-terrain"
+	                        #mapbox_style="stamen-terrain"
 	                       )
+	fig.update_layout(mapbox_style="open-street-map")
 	return fig	
 
 
