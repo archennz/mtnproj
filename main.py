@@ -40,42 +40,81 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 
 app.layout = html.Div(children=[
+	# heading text
     html.H1('Where to climb? A visualization of better crags to hit.'),
 
     html.Div('''
         Select the grades you want to climb and filter for commitment(no X-rated etc). 
-        Then the heatmap will tell you where the bests crags are. 
-    '''),
+        Then the heatmap will tell you where the best crags are. 
+    	'''),
 
-    dcc.Graph(
-        id='graph'
-    ),
+    # column 1
+    html.Div(style = {'display':'flex' , 'flex-direction':'row'},
+    	children=[
+    	html.Div(
+    		dcc.Graph(id='graph',
+    					style = {'height':'90vh', 'width':'80vw'})
+    		),
 
-    dcc.RangeSlider(
-        id='grade-slider',
-        min=data['grade'].min(),
-        max=data['grade'].max(),
-        marks={str(grade): ('5.'+str(grade)) for grade in range(data['grade'].min(), data['grade'].max()+1)},
-        step=None,
-        allowCross = False,
-        value = [data['grade'].min(), data['grade'].max()]
-    )
+    #column2
+    html.Div(
+    	style = {'background':'AliceBlue'},
+    	children=[
+	    html.Label('Grade Range'),
+	    dcc.RangeSlider(
+	        id='grade-slider',
+	        min=data['grade'].min(),
+	        max=data['grade'].max(),
+	        marks={str(grade): ('5.'+str(grade)) for grade in range(data['grade'].min(), data['grade'].max()+1)},
+	        step=None,
+	        allowCross = False,
+	        value = [data['grade'].min(), data['grade'].max()],
+	        vertical = True
+	    ),
+
+	    html.Label('Include the following:'),
+	    dcc.Checklist(
+	    	id = 'safety',
+	        options=[
+	            {'label': 'PG13', 'value': 'PG13'},
+	            {'label': 'R', 'value': 'R'},
+	            {'label': 'X', 'value': 'X'}
+	        ],
+	        value=['PG13', 'R', 'X'])
+	    ])
+    ])
 ])
+
+
+def filter_data(min_g, max_g, PG_bool, R_bool, X_bool):
+	fil_data = data[(data['grade'] >= min_g) & (data['grade']<= max_g)]
+	if PG_bool == False:
+		fil_data = fil_data[(fil_data['safety'] == 'PG13') ==False]
+	if R_bool == False:
+		fil_data = fil_data[(fil_data['safety'] == 'R') ==False]
+	if X_bool == False:
+		fil_data = fil_data[(fil_data['safety'] == 'X') ==False]
+	return fil_data		
+
 
 @app.callback(
      dash.dependencies.Output('graph', 'figure'),
-     [dash.dependencies.Input('grade-slider', 'value')])
-def update_graph(grade_bounds):
+     [dash.dependencies.Input('grade-slider', 'value'),
+     dash.dependencies.Input('safety', 'value')])
+def update_graph(grade_bounds, safety_fil):
 	[min_g, max_g] = grade_bounds
-	fil_data = data[(data['grade'] >= min_g) & (data['grade']<= max_g)]
+	PG_bool = ('PG13' in safety_fil)
+	R_bool = ('R' in safety_fil)
+	X_bool = ('X' in safety_fil)
+	fil_data = filter_data(min_g, max_g, PG_bool, R_bool, X_bool)
 	fig = px.density_mapbox(fil_data, 
 	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 15,
 	                        hover_name = 'name', 
 	                        hover_data = {'longitude':False, 'latitude':False, 'stars':True, 'rating':True},
+	                        #colorscale = Jet,
 	                        center=dict(lat=34.012, lon=-116.168), zoom=10,
 	                        mapbox_style="stamen-terrain"
 	                       )
-
 	return fig	
 
 
