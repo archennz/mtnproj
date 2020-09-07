@@ -68,7 +68,7 @@ app.layout = html.Div(children=[
 	        marks={str(grade): ('5.'+str(grade)) for grade in range(data['grade'].min(), data['grade'].max()+1)},
 	        step=None,
 	        allowCross = False,
-	        value = [data['grade'].min(), data['grade'].max()],
+	        value = [data['grade'].min()+1, data['grade'].max()],
 	        vertical = True
 	    ),
 
