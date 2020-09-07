@@ -87,6 +87,10 @@ app.layout = html.Div(children=[
 
 
 def filter_data(min_g, max_g, PG_bool, R_bool, X_bool):
+	"""
+	filters the dataframe according to users selection of grade range 
+	and safety ratings
+	"""
 	fil_data = data[(data['grade'] >= min_g) & (data['grade']<= max_g)]
 	if PG_bool == False:
 		fil_data = fil_data[(fil_data['safety'] == 'PG13') ==False]
@@ -116,6 +120,7 @@ def update_graph(grade_bounds, safety_fil):
 	                        opacity = 0.7
 	                        #mapbox_style="stamen-terrain"
 	                       )
+	fig['layout']['uirevision'] = 'some-constant'
 	fig.update_layout(mapbox_style="open-street-map")
 	return fig	
 
