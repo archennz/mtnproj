@@ -1,12 +1,18 @@
-l[[source]]
+[[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+jupyter = "*"
 
 [packages]
-jupyter = "*"
+mountainprojectpublicapi = "*"
+requests = "*"
+pandas = "*"
+plotly = "*"
+dash = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
