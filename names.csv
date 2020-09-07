@@ -28,6 +28,7 @@ id,name,type,rating,stars,starVotes,pitches,location,longitude,latitude,safety,g
 105721861,Breakfast of Champions,Trad,5.8+,4.4,187,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - Northeast Face']",-116.1471,34.0386,S,8
 105722716,Ace of Spades,Trad,5.9,4.4,205,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'White Cliffs of Dover', 'White Cliffs of Dover - Left Side']",-116.199,34.0292,S,9
 105723478,Popular Mechanics,Trad,5.9,4.4,277,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'White Cliffs of Dover', 'White Cliffs of Dover - Left Side']",-116.199,34.0292,S,9
+105721810,Right On,Trad,5.6 PG13,4.1,369,4,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Saddle Rocks', 'Saddle Rocks - Skirt', 'Saddle Rocks - Skirt  (West Face)']",-116.14,33.9945,PG13,6
 105721849,Poodles are People Too,Trad,5.10b,4.3,301,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,10
 105724099,High Strung,Trad,5.9,4.3,159,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'Foolproof Tower']",-116.1439,34.0372,S,9
 105723325,Bird on a Wire,Trad,5.10a,4.3,358,3,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Lost Horse Wall', 'Lost Horse Wall - Right Side']",-116.1788,34.0217,S,10
@@ -46,6 +47,455 @@ id,name,type,rating,stars,starVotes,pitches,location,longitude,latitude,safety,g
 105721654,The Flake,Trad,5.8,4.1,481,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,8
 105722467,Head Over Heals,Trad,5.10a,4.2,117,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Right)']",-116.1792,34.0246,S,10
 105725401,Rock Candy,Trad,5.9+,4.1,180,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,9
+105722227,Overseer,Trad,5.9,4.1,342,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,9
 105725131,Left Ski Track,Trad,5.11a,4.1,158,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,11
 105724486,Dos Chi Chis,Sport,5.10a,4.1,128,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'Siberia']",-116.1699,34.0696,S,10
 105722146,Light Sabre,Trad,5.10b,4.1,121,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', 'Virgin Islands Area', 'Star Wars Rock']",-116.0712,33.9504,S,10
+105721711,Bearded Cabbage,Trad,5.10c,4,270,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - East Face']",-116.1637,34.0167,S,10
+105721969,White Lightning,Trad,5.7,4,732,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,7
+105721648,Overhang Bypass,Trad,5.7,4,592,2,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,7
+105721651,North Overhang,Trad,5.9,4,354,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,9
+105721900,Dog Day Afternoon,Trad,5.10b,4,96,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'South Horror Rock']",-116.1467,33.9977,S,10
+105721894,Swept Away,Trad,5.11a,4.8,64,2,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - South Face']",-116.1551,34.0246,S,11
+105722272,Spiderman,Trad,5.10b,4,139,1,"['California', 'Joshua Tree National Park', 'Jumbo Rock Area', ""Conan's Corridor""]",-116.0682,33.9952,S,10
+105721639,Geronimo,Trad,5.7,4,135,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - East Face']",-116.1637,34.0167,S,7
+105722347,Cakewalk,Trad,5.8+,4,196,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Freeway Wall', 'Upper Freeway Wall']",-116.1787,34.0233,S,8
+106398462,Boulderado (aka California Face),Sport,5.11a,4.1,77,1,"['California', 'Joshua Tree National Park', 'Jumbo Rock Area', ""Conan's Corridor""]",-116.0682,33.9952,S,11
+105723445,Ball Bearing,Trad,5.10a,4,234,2,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Sentinel', 'The Sentinel - East Face']",-116.1712,34.0134,S,10
+105721753,Right V Crack,Trad,5.10b,4,104,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Short Wall', 'Short Wall - Left Side']",-116.1537,34.0926,S,10
+105721627,Invisibility Lessons,Trad,5.9,3.9,260,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Future Games Rock']",-116.0533,34.0117,S,9
+105721840,Dazed and Confused,Trad,5.9,3.9,147,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'Lenticular Dome']",-116.1494,34.0425,S,9
+105721720,Lower Right Ski Track,Trad,5.10,3.9,222,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,10
+105724426,Tossed Green,Trad,5.10a,3.9,125,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Hound Rock']",-116.2019,34.0334,S,10
+105724495,Fisticuffs,Trad,5.10b,3.9,196,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Tumbling Rainbow Formation']",-116.1713,34.0123,S,10
+105722488,Sphincter Quits,Trad,5.9+ PG13,3.9,181,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Sports Challenge Rock', 'Sports Challenge Rock - West Face']",-116.1691,34.014,PG13,9
+105722170,Dogleg,Trad,5.8+,3.9,435,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - West Face']",-116.1639,34.0166,S,8
+105722770,More Monkey than Funky,Trad,5.11b/c,4.6,65,1,"['California', 'Joshua Tree National Park', 'Barker Dam Area', 'More Funky than Monkey Rock']",-116.1445,34.025,S,11
+105721846,The Bendix Claws,Trad,5.11a,4,78,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Future Games Rock']",-116.0533,34.0117,S,11
+105725077,Fote Hog,Trad,5.6,3.8,360,2,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Sentinel', 'The Sentinel - East Face']",-116.1712,34.0134,S,6
+105722209,Pinhead,Boulder,5.8+ V0,3.9,220,,"['California', 'Joshua Tree National Park', 'Joshua Tree Bouldering*', 'Hidden Valley Campground Bouldering', 'HVCG Bouldering Circuit', 'HVCG North', 'Pinhead Boulder']",-116.1616,34.02,S,8
+105722014,Diamond Dogs,Trad,5.10a,3.9,148,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'East Wall, North End (Diamond Dogs Area)']",-116.146,34.0005,S,10
+105722164,Dolphin,Trad,5.7,3.8,270,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles in the Sky (Northeast Face)']",-116.0587,34.0047,S,7
+105721873,Double Dogleg,Trad,5.7,3.8,347,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,7
+105724492,Yasmine Bleeth,Sport,5.9,3.8,97,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'Siberia']",-116.1699,34.0696,S,9
+105725065,Leap Year Flake,Trad,5.7,3.8,162,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Left Side']",-116.177,34.0216,S,7
+105723289,Right Baskerville Crack,Trad,5.10a,3.9,130,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Baskerville Rock']",-116.2015,34.0337,S,10
+105723679,Western Saga,Trad,5.9,3.9,169,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Sentinel', 'The Sentinel - East Face']",-116.1712,34.0134,S,9
+105721771,The Bong,Trad,5.4,3.7,636,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - North Face']",-116.1646,34.0187,S,4
+105721945,Congratulations,Trad,5.10d R,3.8,107,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,R,10
+105722200,Hobbit Roof,Trad,5.10d,3.8,295,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - West Face']",-116.1643,34.018,S,10
+105722746,Equinox,Trad,5.12c,5,54,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', ""Jerry's Quarry and Lost Pencil Areas"", ""Jerry's Quarry""]",-116.0923,33.9544,S,12
+105816324,Crack   5,Trad,5.9,3.8,98,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles Corridor', 'Isles Corridor - Left Side']",-116.0589,34.0045,S,9
+105721660,Stichter Quits,Trad,5.7,3.7,468,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,7
+105722266,Gem,Trad,5.8,3.8,282,1,"['California', 'Joshua Tree National Park', 'Jumbo Rock Area', ""Conan's Corridor""]",-116.0682,33.9952,S,8
+105722089,Super Roof,Trad,5.9,3.7,156,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Super Roof Wall']",-116.1669,34.0193,S,9
+105723520,Catch A Falling Star,Trad,5.8,3.7,108,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Cap Rock Area', 'Cap Rock', 'Cap Rock - Southeast Face']",-116.1632,33.9897,S,8
+105722182,Orphan,Trad,5.9,3.7,209,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - West Face']",-116.1639,34.0166,S,9
+105721609,Toe Jam,Trad,5.7,3.6,832,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - East Face']",-116.1637,34.0167,S,7
+105722020,Nurn's Romp,Trad,5.8,3.7,231,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'East Wall Inner (Exorcist Area)']",-116.1469,33.9998,S,8
+105723454,Sexy Grandma,Trad,5.9,3.7,497,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - West Face']",-116.1639,34.0166,S,9
+105721807,Mr. Misty Kiss,Trad,5.7+,3.7,308,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Right Side']",-116.1773,34.0219,S,7
+105725404,Young Lust,Trad,5.8+,3.7,194,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,8
+105721768,Direct South Face,Trad,5.9,3.7,136,3,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Moosedog Tower']",-116.1649,34.0949,S,9
+105721681,Silent Scream (aka Shock the Monkey),Trad,5.10a,3.7,95,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Pixie Rock']",-116.1563,34.0945,S,10
+105721834,Jane's Addiction,Sport,5.11b,3.9,75,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', ""West Wall Inner (Jane's Addiction Area)""]",-116.1473,34.0003,S,11
+105722167,The Swift,Trad,5.7,3.6,342,3,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Lost Horse Wall', 'Lost Horse Wall - Right Side']",-116.1788,34.0217,S,7
+105723448,Skinny Dip,Trad,5.7 R,3.7,83,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Sidewinder Rock - West Face']",-116.1661,34.0187,R,7
+105723109,Tumbling Rainbow,Trad,5.9,3.7,106,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Tumbling Rainbow Formation']",-116.1713,34.0123,S,9
+105722617,Left Mel Crack,Trad,5.10b,3.7,85,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', ""Mel's Diner""]",-116.1829,34.0286,S,10
+105721621,Continuum,Trad,5.8+,3.7,209,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Future Games Rock']",-116.0533,34.0117,S,8
+105721630,Papa Woolsey,Trad,5.10b,3.7,188,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - Southeast Face']",-116.1638,34.0179,S,10
+105725719,Bambi Meets Godzilla,Trad,5.8+,3.7,121,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - East Face', 'Echo Rock - E Face (Left)']",-116.1547,34.0249,S,8
+105725785,Gargoyle,Trad,5.6,3.6,152,1,"['California', 'Joshua Tree National Park', 'Stirrup Tank', 'Zippy Rock']",-116.0194,33.9594,S,6
+105723781,Frosty Cone,Trad,5.7,3.6,348,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Right Side']",-116.1773,34.0219,S,7
+105721951,Child's Play,Trad,5.10c R,3.7,121,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,R,10
+105721876,Split Personality,Trad,5.9,3.6,150,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,9
+105724564,Euthyphro,Trad,5.8+,3.6,95,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,8
+105722218,Double Dip,Trad,5.6,3.6,375,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,6
+105722464,Nobody Walks in LA,Trad,5.9,3.6,80,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Freeway Wall', 'Upper Freeway Wall']",-116.1787,34.0233,S,9
+105721912,Hands Off,Trad,5.8,3.6,244,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Wall', 'The Wall - Left Side']",-116.1614,34.0181,S,8
+105724111,Watanobe Wall,Trad,5.10a,3.6,122,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Watanobe Wall']",-116.167,34.019,S,10
+105724597,Feltonian Physics,Trad,5.8,3.6,207,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,8
+105721657,Wild Wind,Trad,5.9,3.6,282,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Hidden Tower']",-116.1682,34.0146,S,9
+105722263,Scrumdillyishus,Trad,5.7,3.5,233,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Right Side']",-116.1773,34.0219,S,7
+105722134,Perpetual Motion,Trad,5.10d,4.6,60,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', 'Virgin Islands Area', 'Perpetual Motion Wall']",-116.0699,33.9497,S,10
+105722446,Apparition,Trad,5.10a,4,72,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Apparition Rock', 'Apparition Rock (Front)']",-116.1638,34.0923,S,10
+105721714,Route 499,"Trad, TR",5.11b,3.6,83,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - West Face']",-116.1639,34.0166,S,11
+105721963,Diagnostics,Trad,5.6,3.6,179,1,"['California', 'Joshua Tree National Park', 'Belle Campground Area', 'Belle Campground', 'Castle Rock', 'Castle Rock - North Side']",-116.0203,34.0017,S,6
+105723565,Strawberry Jam,Trad,5.9,3.6,90,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Outhouse Rock', 'Outhouse Rock - East Face']",-116.1634,34.0199,S,9
+105722614,Right Mel Crack,Trad,5.10c,3.6,88,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', ""Mel's Diner""]",-116.1829,34.0286,S,10
+105721825,No Calculators Allowed,Trad,5.10a,3.5,280,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,10
+105721645,Buissonier,Trad,5.7+,3.5,297,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - Southeast Face']",-116.1638,34.0179,S,7
+105721708,Who's First,Trad,5.6 R,3.5,104,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Pixie Rock']",-116.1563,34.0945,R,6
+105722224,Mike's Books,Trad,5.6,3.4,476,2,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,6
+105721723,Upper Right Ski Track,Trad,5.3,3.5,279,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,3
+105725407,Smithereens,Trad,5.8,3.5,178,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,8
+105721888,The Flue,Trad,5.8,3.5,169,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Chimney Rock', 'Chimney Rock - East Face']",-116.1614,34.0168,S,8
+105723643,Funny Bone,Trad,5.7+,3.5,113,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Snickers', 'Snickers - North Face']",-116.1506,34.0252,S,7
+105724045,Dinky Doinks,Trad,5.8,3.5,84,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Tiny Tots Rock']",-116.178,34.0231,S,8
+105721972,Dung Fu,Trad,5.7,3.5,282,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,7
+105722221,Leaping Leaner,Trad,5.7,3.5,260,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Locomotion Rock']",-116.168,34.0134,S,7
+105724168,The Chief,Trad,5.5,3.4,132,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', 'Reggie Dome']",-116.1778,34.0405,S,5
+105722845,Effigy Too,Trad,5.10a/b,3.5,102,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - East Side']",-116.1571,34.0252,S,10
+105721990,Comic Book,Trad,5.10a,3.4,85,2,"['California', 'Joshua Tree National Park', 'Comic Book Area', 'The Comic Strip', 'The Comic Strip - SW Face']",-116.1433,34.0131,S,10
+105722575,Boulder Dash,Trad,5.9,3.4,113,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Side']",-116.158,34.0245,S,9
+106660868,Remembering Marina,Sport,5.10a,3.4,82,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Little Hunk', 'Little Hunk - SW Face', 'SW Face Center (The Solarium)']",-116.152,34.0265,S,10
+105724180,Count on Your Fingers,Trad,5.9,3.4,263,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,9
+105722647,Smooth as Silk,Trad,5.8,3.4,84,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Freeway Wall', 'Lower Freeway Wall']",-116.1799,34.0241,S,8
+105721885,Damper,Trad,5.9,3.4,123,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Chimney Rock', 'Chimney Rock - West Face']",-116.1614,34.0168,S,9
+105724327,Fun Stuff,Trad,5.8,3.4,223,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - North Side']",-116.1578,34.0249,S,8
+105724924,Chalk Up Another One,Trad,5.10a,3.7,73,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Wall', 'The Wall - Right Side']",-116.1614,34.0181,S,10
+105725236,Planet X,Trad,5.8,3.4,82,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Planet X Area', 'Planet X Pinnacle']",-116.1556,33.9961,S,8
+105722062,Dummy's Delight,Trad,5.9,3.7,73,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Real Hidden Valley Vicinity', 'Houser Buttress Area', 'Houser Buttress']",-116.1712,34.0105,S,9
+105723784,El Chivo,Sport,5.8,3.3,96,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'The Bilbo Buttresses']",-116.1558,34.0934,S,8
+105725257,Lazy Day,Trad,5.7,3.3,261,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'South Horror Rock']",-116.1467,33.9977,S,7
+105722974,Caught Inside on a Big Set,Trad,5.10a,4.2,63,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Central Wonderland', 'Diarrhea Dome', 'Bighorn Mating Grotto']",-116.1473,34.0515,S,10
+105723499,Granny Goose,Trad,5.7,3.3,129,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Left Hand of Darkness', 'Left Hand of Darkness - E. Face']",-116.1785,34.0285,S,7
+105723013,Rock-a-Lot,Trad,5.7,3.3,131,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,7
+105721783,Pinched Rib,Trad,5.10a,3.3,176,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Chimney Rock', 'Chimney Rock - West Face']",-116.1614,34.0168,S,10
+105722506,Tiptoe,Trad,5.7+,3.3,197,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,S,7
+105982372,False Lieback,Trad,5.4,3.3,85,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Cap Rock Area', 'Cap Rock', 'Cap Rock - North Face']",-116.1635,33.9899,S,4
+105722041,Dandelion,Trad,5.10a,3.3,116,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - West Face']",-116.1639,34.0166,S,10
+105721633,Funky Dung,Trad,5.8,3.3,94,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,8
+105722119,Looney Tunes,Trad,5.9,3.3,105,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Rock Hudson']",-116.1629,34.0212,S,9
+105721741,Tranquility,Trad,5.6,3.3,98,2,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Moosedog Tower']",-116.1649,34.0949,S,6
+105722458,Palmreader,Trad,5.8,3.5,75,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Palmreader Wall']",-116.1617,34.0935,S,8
+105930186,Route 66,Trad,5.4,4.1,63,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', ""Gilligan's Island"", ""Mary Ann's Face""]",-116.178,34.0566,S,4
+105722011,Lickety Splits,Trad,5.7 R,3.2,103,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'East Wall, North End (Diamond Dogs Area)']",-116.146,34.0005,R,7
+105724297,Hot Fudge,Trad,5.9 R,3.4,76,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Right Side']",-116.1773,34.0219,R,9
+105722290,Spaghetti & Chili,Trad,5.7+,3.2,133,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Cyclops Rock']",-116.1594,34.015,S,7
+105723301,Jerry Brown,Trad,5.10b,3.8,68,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Brown Wall']",-116.1722,34.0168,S,10
+105722470,The Importance of Being Ernest,Trad,5.10c/d R,3.9,65,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Center)']",-116.1783,34.0243,R,10
+105724909,Swing Low,Sport,5.7,3.1,159,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - North Side']",-116.1578,34.0249,S,7
+106660862,Tim's Valentine,Sport,5.7,3.1,90,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Little Hunk', 'Little Hunk - SW Face', 'SW Face Center (The Solarium)']",-116.152,34.0265,S,7
+105721702,The Reverend,Trad,5.8,3.1,87,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Billboard Buttress']",-116.1561,34.0935,S,8
+105721696,We Dive At Dawn,Trad,5.8,3.1,99,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Billboard Buttress']",-116.1561,34.0935,S,8
+105723016,Beck's Bet,Trad,5.7+,3.1,115,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,7
+105722566,Grain Surgery,Trad,5.10a/b PG13,3.8,66,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Grain Surgery Wall']",-116.1664,34.0192,PG13,10
+105722419,[Redacted],Trad,5.7,3.1,98,1,"['California', 'Joshua Tree National Park', 'Barker Dam Area', 'Dissolution Rock']",-116.141,34.0277,S,7
+105816331,Crack   6,Trad,5.10a,3.9,64,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles Corridor', 'Isles Corridor - Left Side']",-116.0589,34.0045,S,10
+105724249,Profundity,Trad,5.10c PG13,3.1,101,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,PG13,10
+105723646,Norwegian Wood,Trad,5.9,3.5,72,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Snickers', 'Snickers - North Face']",-116.1506,34.0252,S,9
+105722515,Cranny,Trad,5.8,3.1,138,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,S,8
+105721987,Nectar,Trad,5.4,3.1,102,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles in the Sky (Northeast Face)']",-116.0587,34.0047,S,4
+105725629,Minotaur,Trad,5.7,3.1,87,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Minotaur Wall']",-116.1798,34.0187,S,7
+105722311,The Sound of One Shoe Tapping,Trad,5.8,3.1,90,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - North Side']",-116.1578,34.0249,S,8
+105722410,Men with Cow's Heads,Trad,5.5,3,202,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Right']",-116.1802,34.0189,S,5
+105722299,Butterfingers Make Me Horny,Trad,5.8,3.1,246,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,8
+105722689,Jumping Jack Crack,Trad,5.11a/b,4,61,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Sidewinder Rock - West Face']",-116.1661,34.0187,S,11
+105722407,Solar Technology,Trad,5.6,3.1,183,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Right']",-116.1802,34.0189,S,6
+105976311,Bat Crack,Trad,5.5,3,103,2,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,5
+105723316,Deflowered,Trad,5.7,3.1,90,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Grain Surgery Wall']",-116.1664,34.0192,S,7
+105725059,The Decompensator of Lhasa,Trad,5.10c/d,4.3,56,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Grain Surgery Wall']",-116.1664,34.0192,S,10
+105725368,Eff Eight,Trad,5.8,3.1,135,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Mounds']",-116.1522,34.0258,S,8
+105722329,R. A. F.,Trad,5.9,3,87,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - North Side']",-116.1578,34.0249,S,9
+105721918,Spider Line,Trad,5.11d,4.3,54,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - East Face']",-116.1637,34.0167,S,11
+105721759,Double Crack,Trad,5.3,3,99,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Short Wall', 'Short Wall - Right Side']",-116.1532,34.0926,S,3
+105814427,Too Secret to Find,Trad,5.10b,4.3,55,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', 'Hidden Dome']",-116.1746,34.0543,S,10
+105722437,Humerous,Trad,5.10b,3.5,70,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Snickers', 'Snickers - North Face']",-116.1506,34.0252,S,10
+105724783,George's Route (aka Binder),Sport,5.8,3.4,73,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'Siberia']",-116.1699,34.0696,S,8
+105723649,Crime of the Century,Trad,5.11a,4,60,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Snickers', 'Snickers - North Face']",-116.1506,34.0252,S,11
+105723055,Party in the Desert,Trad,5.10b,4,61,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Corral Wall', 'Corral Wall - Left Side']",-116.1426,34.0835,S,10
+105725281,Runaway,Sport,5.11a/b,4.3,53,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Tumbling Rainbow Formation']",-116.1713,34.0123,S,11
+105723298,Roan Way,Trad,5.8+,3.8,64,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Lost Horse Wall', 'Lost Horse Wall - Right Side']",-116.1788,34.0217,S,8
+105724189,Almost Vertical,Trad,5.7,3,223,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,7
+105721726,Duchess,Trad,5.6,3,124,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Left Side)']",-116.154,34.093,S,6
+105724156,Wet Pigeon,Trad,5.8-,3,114,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Right']",-116.1802,34.0189,S,8
+105722449,The Mikado,Trad,5.7,3,100,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Right Side)']",-116.1534,34.0931,S,7
+105721798,Band Saw,Trad,5.10c R,3.7,66,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - West Face']",-116.1639,34.0166,R,10
+105858135,Rites of Spring,Trad,5.9,3.1,77,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles in the Sky (Northeast Face)']",-116.0587,34.0047,S,9
+105723796,Karpkwitz,Trad,5.6,2.9,159,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,S,6
+105724318,Buckets to Burbank,Trad,5.8 PG13,3.2,75,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'West Wall Outer (Buckets to Burbank Area)']",-116.1479,34.001,PG13,8
+105725824,Beginner's Three,Trad,5.3,2.9,89,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,3
+105722314,W. A. C.,Trad,5.8,2.9,83,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - North Side']",-116.1578,34.0249,S,8
+105722653,Bebop Tango,Sport,5.11a,4.2,55,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Solosby Wall']",-116.1711,34.012,S,11
+105722671,Ain't Nothing but a J-Tree Thing,Trad,5.6,2.9,224,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,6
+105722413,Ceremony,Trad,5.10c,3.1,76,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Right']",-116.1802,34.0189,S,10
+105724186,Chocolate is Better Than Sex,Trad,5.9- R,2.9,99,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,R,9
+105723937,R.M.L.,Trad,5.9,3.4,69,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Face']",-116.1582,34.0242,S,9
+105874278,Shardik,Trad,5.3,3.1,76,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', 'Bear Island']",-116.1811,34.0538,S,3
+105725692,Gandy,Sport,5.9,3.1,75,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'Siberia']",-116.1699,34.0696,S,9
+105724096,Beginner's One,Trad,5.3 R,2.9,84,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - West Face']",-116.1643,34.018,R,3
+105722338,Willit Slab,Sport,5.6,3.1,74,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Indian Palisades Corridor']",-116.1544,34.0937,S,6
+105721786,Jumping Jehosephat,Trad,5.7,2.8,133,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Locomotion Rock']",-116.168,34.0134,S,7
+105722995,Taken for Granite,Trad,5.8-,4.1,55,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Rattlesnake Buttress']",-116.1408,34.0773,S,8
+105725587,Music Box,Trad,5.8+,3.1,74,1,"['California', 'Joshua Tree National Park', 'Belle Campground Area', 'Belle Campground', 'Castle Rock', 'Castle Rock - North Side']",-116.0203,34.0017,S,8
+106627424,I Love my Marine,Sport,5.7,3.3,68,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Campfire Crag Area', 'Campfire Crag - South Face']",-116.1586,34.0951,S,7
+105722998,200 Motels,Trad,5.8,3.8,59,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Rattlesnake Buttress']",-116.1408,34.0773,S,8
+105846247,Left Banana Crack,Trad,5.10b,3.8,59,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Banana Cracks']",-116.1771,34.0254,S,10
+105721804,Dead Bees,Sport,5.9,3.1,73,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles in the Sky (Northeast Face)']",-116.0587,34.0047,S,9
+105724006,Grand Theft Avocado,Trad,5.7+,2.8,80,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'The Orc Wall']",-116.1665,34.0188,S,7
+105722629,Right Sawdust Crack,Trad,5.8,2.8,101,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - East Face']",-116.1972,34.0403,S,8
+105721957,The Official Route of the 1984 Olympics,Trad,5.10c PG13,4.1,53,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Cyclops Rock']",-116.1594,34.015,PG13,10
+105722149,Cedric's Deep Sea Fish Market,Trad,5.10d,4,55,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', 'Virgin Islands Area', 'Star Wars Rock']",-116.0712,33.9504,S,10
+105722848,Vector,Trad,5.11c,4.9,37,1,"['California', 'Joshua Tree National Park', 'Loveland', 'Vector Rock']",-116.0534,34.0219,S,11
+105723787,B-1,Trad,5.1,2.8,177,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,S,1
+105787743,Maggie's Farm,Trad,5.7,2.8,93,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Mindless Mound']",-116.1778,34.0261,S,7
+105721864,Piggle Pugg,Trad,5.10c,3.9,56,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - Northeast Face']",-116.1471,34.0386,S,10
+105725428,Lewd and Lascivious Conduct,Trad,5.10c R,3.1,73,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,R,10
+105724579,Bacon Flake,"Trad, TR",5.8,3.2,71,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Face']",-116.1582,34.0242,S,8
+105722500,Classic Corner,Trad,5.7,3.4,66,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Cockroach Crag']",-116.1762,34.0132,S,7
+105723241,Beginner's Two,Trad,5.5,2.6,97,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - West Face']",-116.1643,34.018,S,5
+105721777,Toe Jam Express,Trad,5.3,2.7,93,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Short Wall', 'Short Wall - Right Side']",-116.1532,34.0926,S,3
+105807135,Walkway,Trad,5.4 PG13,2.7,95,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,PG13,4
+105725209,Betty Jo Yablonksi,Boulder,5.10a V0 R,4.6,41,,"['California', 'Joshua Tree National Park', 'Joshua Tree Bouldering*', 'Real Hidden Valley Bouldering', 'Real Hidden Valley Circuit', 'Entrance Boulder & Vicinity', 'Betty Jo Rock']",-116.1686,34.0125,R,10
+105900396,Big Bob's Big Wedge,"Trad, Boulder",5.12a V5,4.9,36,,"['California', 'Joshua Tree National Park', 'Live Oak Picnic Area', ""Big Bob's Big Wedge""]",-116.0514,33.9997,S,12
+105844763,Taurus,Trad,5.7,3.1,71,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Right']",-116.1802,34.0189,S,7
+105721882,Pet or Meat,Sport,5.10d,3.7,59,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Right Side)']",-116.1534,34.0931,S,10
+105722323,Serpent Scales,Sport,5.6,3.2,69,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Indian Palisades Corridor']",-116.1544,34.0937,S,6
+106075137,Perfect Fingers,Trad,5.10-,4.6,41,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', ""Walt's Rocks"", ""Lower Walt's Rocks""]",-116.1026,34.0589,S,10
+105721699,Driving Limitations,Trad,5.8-,2.6,95,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Billboard Buttress']",-116.1561,34.0935,S,8
+105787739,Rainy Day Women,Trad,5.7,2.6,86,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Mindless Mound']",-116.1778,34.0261,S,7
+105724690,Rollercoaster,Sport,5.11b,4.2,48,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Rollerball Formation']",-116.1651,34.0227,S,11
+105722512,Eschar,Trad,5.4,2.6,117,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,S,4
+105722605,Captain Kronos,Trad,5.9 R,3.3,66,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Brown Wall']",-116.1722,34.0168,R,9
+105796868,Surrealistic Pillar,Trad,5.10b/c,4,51,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - East Face']",-116.1641,34.0184,S,10
+105721678,Forbidden Paradise,Trad,5.10b,3.7,58,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,10
+107816748,Field and Stream,Trad,5.10c,4.5,42,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'White Cliffs of Dover', 'White Cliffs of Dover - Left Side']",-116.199,34.0292,S,10
+105722542,A Woman's Work is Never Done,Trad,5.10c,3.3,64,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Labor Dome']",-116.1668,34.0211,S,10
+105724828,Pops Goes Hawaiian,Trad,5.7 R,3.4,62,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', 'Reggie Dome']",-116.1778,34.0405,R,7
+105723430,Where Have all the Cowboys Gone,Trad,5.10d,4.6,38,3,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Saddle Rocks', 'Saddle Rocks - Skirt', 'Saddle Rocks - Skirt  (West Face)']",-116.14,33.9945,S,10
+105724672,Leap Erickson,Trad,5.10b,3.6,58,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Left Side']",-116.177,34.0216,S,10
+105723793,B-3,Trad,5.3,2.5,157,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,S,3
+107148146,Incandescent,Sport,5.8,3.5,60,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Little Hunk', 'Little Hunk - NE Face', 'Little Hunk - NE Face (Right)']",-116.1531,34.0277,S,8
+105722812,Nuts and Cherries,Trad,5.7,2.8,74,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Right Side']",-116.1773,34.0219,S,7
+105723790,B-2,Trad,5.3,2.5,161,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,S,3
+105725509,SOB,Trad,5.6,2.5,81,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Short Wall', 'Short Wall - Right Side']",-116.1532,34.0926,S,6
+105816299,Grounder,Trad,5.9,3.4,62,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles Corridor', 'Isles Corridor - Left Side']",-116.0589,34.0045,S,9
+105787765,New Toy,Trad,5.6,2.9,72,1,"['California', 'Joshua Tree National Park', 'Stirrup Tank', 'Stirrup Rock', 'Stirrup Rock - North Face']",-116.0205,33.9605,S,6
+105725809,Martin Quits,Trad,5.10c,3.6,58,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Gateway Rock']",-116.1686,34.0124,S,10
+105725551,Physical Graffiti,Sport,5.10d,4.6,38,2,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Anasazi Wall']",-116.1486,34.0263,S,10
+105725071,British Airways,Trad,5.11a R,4,49,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - South Face']",-116.1551,34.0246,R,11
+105721978,Campfire Girl (Half Route),Trad,5.8+,3.9,52,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Campfire Crag Area', 'Campfire Crag - North Face']",-116.1585,34.0957,S,8
+105723400,Just Another Roadside Attraction,Trad,5.8,3.1,68,1,"['California', 'Joshua Tree National Park', 'Roadside Rocks', 'Roadside Rock']",-116.1811,34.0298,S,8
+105723058,Six-Gun by My Side,Trad,5.10a,3.5,60,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Corral Wall', 'Corral Wall - Left Side']",-116.1426,34.0835,S,10
+105722386,Scary Poodles,Trad,5.11b,4.6,37,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Center)']",-116.1783,34.0243,S,11
+105802175,Pinky Lee,Trad,5.11a,3,68,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - North Side']",-116.1578,34.0249,S,11
+105722152,Thumbs Down Left,Trad,5.9,3,69,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', 'Virgin Islands Area', 'Star Wars Rock']",-116.0712,33.9504,S,9
+105721819,Championship Wrestling,Trad,5.9,3.7,55,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Sports Challenge Rock', 'Sports Challenge Rock - East Face']",-116.1691,34.0141,S,9
+106044952,Love Gas,Sport,5.10a,3.7,55,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'Siberia']",-116.1699,34.0696,S,10
+105724294,South Face Center,TR,5.9,3.5,56,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Ryan Campground', 'Headstone Rock']",-116.1524,33.9844,S,9
+105723082,Firewater Chimney,Trad,5.10b,4.6,34,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'The Valley of Kings', 'The Arrowhead']",-116.1407,34.0726,S,10
+106170736,Poodlesby,Trad,5.6,3,68,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Left)']",-116.1778,34.0239,S,6
+105721672,Stick to What,Trad,5.9 R,3,66,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,R,9
+105721852,Monaco,Sport,5.11b,3.8,50,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Left Side)']",-116.154,34.093,S,11
+105721921,Space Mountain,Trad,5.10b,4.5,36,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Saddle Rocks', 'Saddle Rocks - Skirt', 'Saddle Rocks - Skirt (North Face)']",-116.1397,33.9947,S,10
+105722461,Water Chute,Trad,5.10b,3.4,59,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,10
+105909202,Water Moccasin,Sport,5.7,3.1,64,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Indian Palisades Corridor']",-116.1544,34.0937,S,7
+105722632,Left Sawdust Crack,Trad,5.10c,3.2,62,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - East Face']",-116.1972,34.0403,S,10
+105725653,Sig Alert (aka Cast Up a Highway),Trad,5.10b/c,3.8,49,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Freeway Wall', 'Upper Freeway Wall']",-116.1787,34.0233,S,10
+105724183,Conservative Policies,Trad,5.8,2.9,68,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,8
+105725317,Dress Rehearsal,Trad,5.7,3,66,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Playhouse Rock']",-116.1757,34.022,S,7
+110694423,The Sand Donkey (aka Will It or Won't It),Sport,5.8,3.6,53,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Willit Pillar']",-116.1551,34.0933,S,8
+105723934,C.S. Special,Trad,5.10b,3.4,57,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Face']",-116.1582,34.0242,S,10
+106075758,Feminine Itch,Sport,5.7,3.1,61,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Campfire Crag Area', 'Campfire Crag - South Face']",-116.1586,34.0951,S,7
+105724639,Beck's Bear,Trad,5.7,2.7,71,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Playhouse Rock']",-116.1757,34.022,S,7
+105723673,Bikini Whale,Sport,5.12,4.8,29,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Hidden Cliff']",-116.1714,34.0129,S,12
+105722533,Sitting Here in Limbo,Trad,5.9,3.5,55,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Face']",-116.1582,34.0242,S,9
+105722587,I Can't Believe It's a Girdle,Trad,5.10b R,4.9,26,4,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'East Wonderland Valley', 'Freak Brothers Dome']",-116.1444,34.0428,R,10
+105721858,Such a Savage,Trad,5.11a R,4.6,32,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - Northeast Face']",-116.1471,34.0386,R,11
+105846251,Right Banana Crack,Trad,5.11a,3.9,46,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Banana Cracks']",-116.1771,34.0254,S,11
+105721687,Sweat Band,Trad,5.10b/c PG13,3.6,51,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', ""King Otto's Castle""]",-116.1569,34.0924,PG13,10
+105722569,Hex Marks the Poot,Trad,5.8,3.2,59,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - East Face']",-116.1466,34.0382,S,8
+105724039,The Orc,Trad,5.10a,3.1,62,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'The Orc Wall']",-116.1665,34.0188,S,10
+105725038,Exfoliation Confrontation,Trad,5.9+,3.4,56,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Corral Wall', 'Corral Wall - Right Side']",-116.1421,34.0835,S,9
+105725272,Axe of Dog,Trad,5.10a,3.2,60,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Face']",-116.1582,34.0242,S,10
+107813851,Whispering Chickens,Sport,5.7,2.9,64,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Right Side)']",-116.1534,34.0931,S,7
+105721735,The Castrum,Trad,5.10a,3.2,60,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Left Side)']",-116.154,34.093,S,10
+106046738,McStain,Sport,5.8,2.9,65,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Campfire Crag Area', 'Campfire Crag - South Face']",-116.1586,34.0951,S,8
+105725341,M & Ms Plain,Trad,5.9,2.9,65,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Little Rock Candy Mountain']",-116.1513,34.0239,S,9
+105921241,Between a Rock and a Hard Place,Trad,5.10b,4.7,28,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', 'Virgin Islands Area', 'Star Wars Rock']",-116.0712,33.9504,S,10
+105723997,Middle Peyote Crack,Trad,5.9,2.5,71,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Peyote Cracks Formation', 'Peyote Cracks Formation - W. Face']",-116.1605,34.0224,S,9
+105724000,Right Peyote Crack,Trad,5.8,2.6,70,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Peyote Cracks Formation', 'Peyote Cracks Formation - W. Face']",-116.1605,34.0224,S,8
+105723157,Broken Glass,Trad,5.10a,3.4,54,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Gateway Rock']",-116.1686,34.0124,S,10
+105725026,Donna T's Route,Trad,5.5,2.6,68,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Short Wall', 'Short Wall - Right Side']",-116.1532,34.0926,S,5
+105722059,Hidden Arch,Trad,5.11d,4.8,24,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Real Hidden Valley Vicinity', 'Houser Buttress Area', 'Houser Buttress']",-116.1712,34.0105,S,11
+105724537,White Rain,Trad,5.11a,5,21,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', ""Walt's Rocks"", ""Upper Walt's Rocks""]",-116.1009,34.0583,S,11
+106044947,A Bull with Gas,Sport,5.9,3.3,54,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'Siberia']",-116.1699,34.0696,S,9
+105916494,Blackjack,Sport,5.10d,4,40,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Ken Black Memorial Dome']",-116.1777,34.028,S,10
+105721675,Eff Four,Trad,5.6,2.7,65,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,6
+105724606,Barely Crankin',Trad,5.5,3.1,58,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Ryan Campground', 'The Manure Pile']",-116.1545,33.9825,S,5
+106135530,Rap Bolters are Weak,Sport,5.12a,3.8,43,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Sports Challenge Rock', 'Sports Challenge Rock - West Face']",-116.1691,34.014,S,12
+105723457,Ledges to Lawndale,Trad,5.9 R,3.1,58,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'West Wall Outer (Buckets to Burbank Area)']",-116.1479,34.001,R,9
+105725887,Curtain Call,Trad,5.6,2.9,62,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Playhouse Rock']",-116.1757,34.022,S,6
+105723019,Diabetics,Trad,5.4,2.8,63,1,"['California', 'Joshua Tree National Park', 'Belle Campground Area', 'Belle Campground', 'Castle Rock', 'Castle Rock - North Side']",-116.0203,34.0017,S,4
+105724636,Psycho Groove,Trad,5.9,3.1,57,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Playhouse Rock']",-116.1757,34.022,S,9
+106359304,Ground Up or Shut Up (aka Poppycock),Sport,5.11,3.9,41,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Side']",-116.158,34.0245,S,11
+105725431,Norm,Sport,5.10a,3.1,54,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Left Side']",-116.177,34.0216,S,10
+105721837,Grit Roof,Trad,5.11a,3.9,41,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'North Horror Rock', 'North Horror Rock - South & East Faces']",-116.1463,33.9982,S,11
+105724504,Mojave Queen,Trad,5.11a/b,4.9,21,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', ""Walt's Rocks"", ""Upper Walt's Rocks""]",-116.1009,34.0583,S,11
+105964119,Nutcracker,Trad,5.4,3,58,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Cap Rock Area', 'Cap Rock', 'Cap Rock - North Face']",-116.1635,33.9899,S,4
+105725770,Kemosabe and Tonto,Trad,5.9+,3.5,48,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Great Burrito']",-116.1706,34.0166,S,9
+105724513,Blind Ambition,Trad,5.11a,3.4,49,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Chimney Rock', 'Chimney Rock - East Face']",-116.1614,34.0168,S,11
+105725650,Get Right or Get Left (aka Addams Family),Trad,5.9,3.6,45,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Left Side']",-116.177,34.0216,S,9
+105799298,Right Between the Eyes,Trad,5.7,3.7,44,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Little Hunk', 'Little Hunk - SW Face', 'SW Face Right (Monkey Business Wall)']",-116.1507,34.0261,S,7
+105722194,Judas,Trad,5.10b PG13,2.9,59,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Old Woman', 'The Old Woman - East Face']",-116.1637,34.0167,PG13,10
+105723346,29 Palms,Trad,5.11d,4.8,21,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Arid Piles', 'Arid Piles - Northwest Face']",-116.1785,34.0108,S,11
+105793844,Stemski,Trad,5.6,3.4,50,1,"['California', 'Joshua Tree National Park', 'Live Oak Picnic Area', 'The Whispering Wall']",-116.0518,33.9992,S,6
+105722173,Rhythm of the Heat,Trad,5.8 R,3.3,51,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Pixie Rock']",-116.1563,34.0945,R,8
+105722707,Satanic Mechanic,Sport,5.12b,4.1,34,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Real Hidden Valley Vicinity', 'Turtle Rock', 'Turtle Rock - South Face']",-116.1663,34.01,S,12
+105823218,Peculiar Taste Buds,Trad,5.8,2.7,63,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,8
+105721636,Mama Woolsey,Trad,5.10a R,3.2,52,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'The Blob', 'The Blob - Southeast Face']",-116.1638,34.0179,R,10
+105725164,Vorpal Sword,Trad,5.8+,3.3,50,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Left']",-116.1797,34.0184,S,8
+105721927,Cactus Flower,Trad,5.11b PG13,4,36,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'South Horror Rock']",-116.1467,33.9977,PG13,11
+105721996,Alice in Wonderjam,Trad,5.9,3.8,39,1,"['California', 'Joshua Tree National Park', 'Comic Book Area', 'Alice Rock']",-116.142,34.0124,S,9
+105724939,Amanda,Trad,5.10a,3.8,40,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'The Hot Tub']",-116.1671,34.0192,S,10
+105723733,Black President,Trad,5.11a,4.7,19,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Central Wonderland', 'Elephant Arches']",-116.1449,34.05,S,11
+105722539,Flake and Bake,Trad,5.8,2.7,59,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Face']",-116.1582,34.0242,S,8
+105723490,For Whom the Poodle Tolls,Trad,5.9,3.2,50,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Hemingway Buttress', 'Hemingway Buttress (East Face Right)']",-116.1792,34.0246,S,9
+105722203,That Old Soft Shoe,Trad,5.10d,3.8,37,1,"['California', 'Joshua Tree National Park', 'Belle Campground Area', 'Belle Campground', 'Castle Rock', 'Castle Rock - North Side']",-116.0203,34.0017,S,10
+105723145,Semi Tough,Trad,5.10d,3.7,40,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Gateway Rock']",-116.1686,34.0124,S,10
+105722452,La Reina,Trad,5.9,3.3,47,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Left Side)']",-116.154,34.093,S,9
+105725083,Friendly Hands,Trad,5.10b,3.5,42,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Jimmy Cliff', 'Jimmy Cliff - East Face']",-116.1806,34.0129,S,10
+105857828,Orange Flake,Trad,5.8,3.6,40,2,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Saddle Rocks', 'Saddle Rocks - Skirt', 'Saddle Rocks - Skirt  (West Face)']",-116.14,33.9945,S,8
+105725761,Hyperion,Trad,5.11d,4.9,14,3,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Grey Giant Area', 'Grey Giant']",-116.152,34.0639,S,11
+108613072,LA Woman,Sport,5.11a,4.3,27,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Lost Horse Wall', 'Lost Horse Wall - Left Side']",-116.1792,34.0219,S,11
+105722395,Father Figure,Sport,5.12d,4.5,22,1,"['California', 'Joshua Tree National Park', 'Barker Dam Area', 'Lakeside Rock', 'Lakeside Rock - East Face']",-116.1433,34.0309,S,12
+105983315,Overnight Sensation,Trad,5.11b,4.4,25,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Cyclops Rock']",-116.1594,34.015,S,11
+105722434,Sanctuary (aka Book of Changes),Trad,5.10b,3.9,35,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Central Wonderland', 'Diarrhea Dome', 'Bighorn Mating Grotto']",-116.1473,34.0515,S,10
+105844716,Spitwad,Trad,5.9,3.4,44,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Left Side']",-116.1777,34.0215,S,9
+105722101,Jaws,Trad,5.6 R,3.6,39,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'East Wall Inner (Exorcist Area)']",-116.1469,33.9998,R,6
+105723742,Calcutta,Trad,5.8,2.9,54,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Short Wall', 'Short Wall - Left Side']",-116.1537,34.0926,S,8
+105723739,Bombay,Trad,5.8,2.9,54,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Short Wall', 'Short Wall - Left Side']",-116.1537,34.0926,S,8
+105721669,Quick Draw McGraw,Trad,5.10a,3.2,48,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,10
+105721729,Duchess Right,Trad,5.7,2.8,54,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Feudal Wall', 'Feudal Wall (Left Side)']",-116.154,34.093,S,7
+105839323,West Chimney,Trad,5.6,3,50,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,6
+105723664,Fire or Retire,Trad,5.10c,3.6,37,1,"['California', 'Joshua Tree National Park', 'Roadside Rocks', 'Jam or Slam Rock', 'Jam or Slam Rock (SW Face)']",-116.169,34.0178,S,10
+105722581,Winds of Whoopee,Trad,5.11a,4.1,28,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Real Hidden Valley Vicinity', 'Miles Of Piles Rock - West Face']",-116.1734,34.0118,S,11
+105722074,My Laundry,Trad,5.9,3.8,33,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - Northeast Face']",-116.1471,34.0386,S,9
+105724612,Deceptive Corner,Trad,5.7,2.9,51,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Side']",-116.158,34.0245,S,7
+106120263,Brownies in Motion (aka Brownian Motion),Trad,5.10-,3.5,39,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Brown Wall']",-116.1722,34.0168,S,10
+105724117,Season Opener,Trad,5.8,3.1,48,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Watanobe Wall']",-116.167,34.019,S,8
+105723355,Ocean of Night (aka Out to Grunge),Trad,5.10b/c,3.8,33,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Side']",-116.158,34.0245,S,10
+105723247,Tinker Toys,Trad,5.10b,3.4,41,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Tiny Tots Rock']",-116.178,34.0231,S,10
+105725275,The Falcon and The Snowman,Trad,5.10c PG13,3.4,40,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,PG13,10
+105724108,Misfits,Trad,5.11a/b,4.1,26,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - East Side']",-116.1571,34.0252,S,11
+105725239,Planet Y,Trad,5.9,3,48,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Planet X Area', 'Planet X Pinnacle']",-116.1556,33.9961,S,9
+106331960,The Fetus,Sport,5.10a/b,3.2,44,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Campfire Crag Area', 'Campfire Crag - South Face']",-116.1586,34.0951,S,10
+105724948,Enchanted Stairway,Trad,5.9 R,3.8,31,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Central Wonderland', 'Disneyland Dome']",-116.1445,34.0462,R,9
+105723391,Third Time's a Charm,Trad,5.10b,3.6,36,2,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Moosedog Tower']",-116.1649,34.0949,S,10
+105723067,Butterfly Crack,Trad,5.11c,3.6,36,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - East Face']",-116.1972,34.0403,S,11
+105932820,Presupposition,Trad,5.11c PG13,4.5,17,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Campfire Crag Area', 'Campfire Crag - North Face']",-116.1585,34.0957,PG13,11
+106104577,Tic Tic Boom,Sport,5.12a,4.8,12,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Tumbling Rainbow Formation']",-116.1713,34.0123,S,12
+105725866,Lesbian Lust,Sport,5.9,4,26,1,"['California', 'Joshua Tree National Park', 'OZ Area', 'Hollywood Area', 'North Hollywood', 'Zsa Zsa Gabor Memorial Boulder']",-116.052,34.0351,S,9
+105722491,Ride a Wild Bago,Trad,5.10a R,3,47,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Sports Challenge Rock', 'Sports Challenge Rock - West Face']",-116.1691,34.014,R,10
+105721960,Desert Song,Trad,5.11b R,4.4,20,2,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Sentinel', 'The Sentinel - West Face']",-116.1713,34.013,R,11
+105722494,What's It To You,Trad,5.10d,3.4,39,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Sports Challenge Rock', 'Sports Challenge Rock - West Face']",-116.1691,34.014,S,10
+105722686,Boortemus,Trad,5.10+,3.9,29,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Iceberg Boulder']",-116.1449,34.086,S,10
+105723598,Party till Ya' Puke,Trad,5.10b,3.8,31,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Corral Wall', 'Corral Wall - Left Side']",-116.1426,34.0835,S,10
+105856973,Where Two Deserts Meet,Trad,5.7+,2.8,51,1,"['California', 'Joshua Tree National Park', 'Stirrup Tank', 'Bovine Dome']",-116.0142,33.9806,S,7
+105723622,The Rattler,Trad,5.10c,4.4,18,1,"['California', 'Joshua Tree National Park', 'OZ Area', 'OZ_', 'Emerald City']",-116.0417,34.0319,S,10
+105844756,Hot Crystals,Trad,5.8,3.4,38,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Right']",-116.1802,34.0189,S,8
+105874284,Kodiak,Trad,5.5,3,46,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', 'Bear Island']",-116.1811,34.0538,S,5
+105947529,The Acid Crack,Trad,5.12d,4.8,10,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Arid Piles', 'Arid Piles - Southwest Face']",-116.1766,34.01,S,12
+105723556,False Classic Corner (aka The Case Of The Missing Nolina),Trad,5.8,3,47,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Cockroach Crag']",-116.1762,34.0132,S,8
+105724270,Good Housekeeping,Trad,5.11b,3.7,32,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'White Cliffs of Dover', 'White Cliffs of Dover - Left Side']",-116.199,34.0292,S,11
+105722950,Flawless Fissure,Trad,5.9,3.6,34,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', ""Lloyd's Rock""]",-116.1788,34.0175,S,9
+105724525,Black Diamond,Trad,5.12a,5,6,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', 'Olympic Dome']",-116.1021,34.0481,S,12
+106761085,Lubricated Goat,Sport,5.10,3.8,29,1,"['California', 'Joshua Tree National Park', 'Barker Dam Area', 'Escape Rock', 'Escape Rock (Northeast Face)']",-116.1475,34.0325,S,10
+105725884,Final Act,Trad,5.6,2.7,52,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Playhouse Rock']",-116.1757,34.022,S,6
+105722794,Bighorn Dihedral,Trad,5.10c,4.7,12,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Willow Hole Area', 'Suicide Horn Rock']",-116.1423,34.0666,S,10
+105722680,Peter Eater Pumpkin Eater,Trad,5.10+,3.8,29,1,"['California', 'Joshua Tree National Park', 'Stirrup Tank', 'Stirrup Rock', 'Stirrup Rock - South Face']",-116.0203,33.9602,S,10
+107015930,Asteroid Crack,Trad,5.13a,4.3,18,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Asteroid Belt']",-116.1514,34.0121,S,13
+105797044,Roboranger,Trad,5.5,2.3,59,2,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Mount Grossvogel']",-116.1808,34.0103,S,5
+105815166,Peewee's Piton,Sport,5.10-,3.1,44,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Peewee Rock']",-116.1604,34.0142,S,10
+106381669,Throbbing Gristle,TR,5.12a/b,5,5,,"['California', 'Joshua Tree National Park', 'Loveland', 'Beak Boulder']",-116.0511,34.026,S,12
+105724195,The Face of Tammy Faye,Trad,5.8,2.7,52,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'The Thin Wall']",-116.1728,34.0144,S,8
+105724387,Such a Line,Trad,5.10d,4.4,17,1,"['California', 'Joshua Tree National Park', 'Jumbo Rock Area', 'Zebra Cliffs', 'Zebra Cliffs East Face']",-116.0565,33.9851,S,10
+105721705,Red Beckey (aka The Rabbi),Trad,5.10a,3.2,41,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Billboard Buttress']",-116.1561,34.0935,S,10
+105725053,Invisible Touch,Trad,5.10b,4,26,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Future Games Rock']",-116.0533,34.0117,S,10
+105897095,Inhaler,Sport,5.8,3.3,40,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - East Side']",-116.1571,34.0252,S,8
+105722833,Poodle Smasher,Trad,5.11b,5,5,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Far East', 'Poodle Smasher Area']",-116.1387,34.0527,S,11
+106173514,The Jungle (aka Apocalypse Now),Trad,5.9,3,44,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Oyster Bar Area', 'Conrad Rock', 'Conrad Rock - Heart of Darkness Corridor']",-116.1435,33.9895,S,9
+105722929,The Oyster Bar,Sport,5.11b,3.9,27,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Oyster Bar Area', 'The Oyster Bar']",-116.1411,33.9906,S,11
+105807141,Tulip,Trad,5.6 R,2.6,53,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'Trashcan Rock', 'Trashcan Rock - West Face']",-116.1974,34.0403,R,6
+106402159,Aero Space,Trad,5.10b,3.4,37,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'East Wall Inner (Exorcist Area)']",-116.1469,33.9998,S,10
+105724369,West Face Overhang,Trad,5.7+,2.7,50,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Chimney Rock', 'Chimney Rock - West Face']",-116.1614,34.0168,S,7
+105723532,The Bee's Knees,Sport,5.9,2.9,46,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles in the Sky (Northeast Face)']",-116.0587,34.0047,S,9
+111536616,El Chapo,Sport,5.7,3.1,42,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'The Bilbo Buttresses']",-116.1558,34.0934,S,7
+105723256,South of Heaven,Sport,5.12d,5,4,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'The Valley of Kings', 'Slatanic Area']",-116.1387,34.0745,S,12
+105724528,Icon,Trad,5.10c,4.5,14,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', 'Olympic Dome']",-116.1021,34.0481,S,10
+105722722,Catapult,Trad,5.11b R,5,4,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Grey Giant Area', 'The Fortress']",-116.1482,34.0635,R,11
+105811868,Balance Due,Trad,5.10c,3.8,28,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', 'Hidden Dome']",-116.1746,34.0543,S,10
+106063798,Marmac's Crack,Trad,5.6,3.1,40,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'The Cathouse']",-116.1753,34.0198,S,6
+105721891,Halfway to Paradise,Trad,5.10a/b PG13,3.3,37,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - East Side']",-116.1571,34.0252,PG13,10
+105722320,Bonzo Dog Band,Trad,5.7,2.9,46,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Echo Cove - South Face']",-116.1582,34.0242,S,7
+105722713,Jack of Hearts,Trad,5.9+,2.9,46,1,"['California', 'Joshua Tree National Park', 'Quail Springs Area', 'White Cliffs of Dover', 'White Cliffs of Dover - Left Side']",-116.199,34.0292,S,9
+108041745,Prime Real Estate,Sport,5.12c/d,5,3,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Upper Cow Rock']",-116.1747,34.0168,S,12
+105723217,Hydra,Sport,5.13c,5,3,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Willow Hole Area', 'The Super Block']",-116.153,34.0726,S,13
+118181024,The Hurricane Crack,Trad,5.13c,5,1,,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - South Face']",-116.1551,34.0246,S,13
+105816560,Ocean Of Doubt,Sport,5.13b,5,3,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Atom Smasher Area', 'Ivory Tower']",-116.1604,34.0739,S,13
+105816557,Chain Of Addiction,Sport,5.13c,5,3,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Atom Smasher Area', 'Ivory Tower']",-116.1604,34.0739,S,13
+105724009,Candelabra,Trad,5.10a X,3.4,35,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'The Orc Wall']",-116.1665,34.0188,X,10
+105724498,Drag Queen,Trad,5.11c,5,3,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', ""Walt's Rocks"", ""Upper Walt's Rocks""]",-116.1009,34.0583,S,11
+105725749,The Bloodline,Trad,5.12a,4.8,6,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', 'Olympic Dome']",-116.1021,34.0481,S,12
+106320729,Savwafare Ist Everywhere,Trad,5.8+,3.5,33,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Saavy Dome']",-116.1732,34.0175,S,8
+105722638,Raked over the Coles,Trad,5.10d,3.9,25,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - South Face']",-116.1551,34.0246,S,10
+105722125,Panama Red,TR,5.11c,4.7,9,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', ""King Otto's Castle""]",-116.1569,34.0924,S,11
+106791483,[Redacted],Trad,5.12a PG13,5,2,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Central Wonderland', 'Diarrhea Dome', 'Diarrhea Dome - South Face']",-116.1468,34.051,PG13,12
+105846537,Quantum Jump,Trad,5.10c,4.3,16,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Copenhagen Wall']",-116.178,34.0229,S,10
+112342512,Penny Lane,Sport,5.8,3.4,34,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,8
+105723094,The Last Stand,Sport,5.12a,4.8,6,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'The Valley of Kings', 'The Arrowhead']",-116.1407,34.0726,S,12
+105723895,Celebrated Beast,Trad,5.9-,2.7,48,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles in the Sky (Northeast Face)']",-116.0587,34.0047,S,9
+105945855,Hello Kitty,Trad,5.9,3.2,38,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'The Cathouse']",-116.1753,34.0198,S,9
+106939641,Number Two (aka the Weasel Boys Arete),Sport,5.12b,5,2,1,"['California', 'Joshua Tree National Park', 'Geology Tour Road', ""Jerry's Quarry and Lost Pencil Areas"", 'Lost Pencil']",-116.1011,33.9523,S,12
+106104622,Trapeze,Trad,5.11d,4.5,11,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Intersection Rock']",-116.163,34.0148,S,11
+105725695,Silver Spur,Trad,5.12,5,2,3,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Saddle Rocks', 'Saddle Rocks - Skirt', 'Saddle Rocks - Skirt  (West Face)']",-116.14,33.9945,S,12
+105723103,No Self Confidence,Trad,5.10c,4.5,12,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Grey Giant Area', 'The Flying Fortress']",-116.1488,34.0649,S,10
+106298212,The Maneater,"Trad, TR",5.10d,4.7,7,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Dutzi Rock']",-116.1645,34.0262,S,10
+105723271,The Tomahawk,Trad,5.12a,5,2,2,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'The Valley of Kings', 'The Helmet']",-116.1428,34.073,S,12
+105937464,The Almighty (aka Mighty High),Trad,5.12a,5,2,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Ryan Campground', 'The Manure Pile']",-116.1545,33.9825,S,12
+105722851,Dyno in the Dark,Trad,5.10b,3.8,25,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Chimney Rock', 'Chimney Rock - West Face']",-116.1614,34.0168,S,10
+105722038,Gray Cell Green,Sport,5.10d,3.3,35,1,"['California', 'Joshua Tree National Park', 'Hidden Valley Campground', 'Cyclops Rock']",-116.1594,34.015,S,10
+105724210,After Becky,Trad,5.11c,5,2,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Vernal Walls']",-116.1401,34.0782,S,11
+105725434,Goodbye Mr. Bond,Trad,5.10c,3.7,27,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', ""King Otto's Castle""]",-116.1569,34.0924,S,10
+105723547,Electralux,Trad,5.9+,3.2,37,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Little Hunk', 'Little Hunk - NE Face', 'Little Hunk - NE Face (Right)']",-116.1531,34.0277,S,9
+118224651,Prime Directive,Sport,5.13a,5,1,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Upper Cow Rock']",-116.1747,34.0168,S,13
+106079645,Leaving Las Vegas,Trad,5.10b,3.2,38,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', ""King Otto's Castle""]",-116.1569,34.0924,S,10
+105723424,Natural Selection,Trad,5.11a,4.3,15,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Grey Giant Area', 'The Fortress']",-116.1482,34.0635,S,11
+106544588,Ben Dover,Sport,5.10b,3.1,40,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Ben Dover Face']",-116.1586,34.0255,S,10
+105725410,The Treat,Trad,5.7,3,42,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Rock Garden Valley', 'Rock Garden Valley - Right Side']",-116.1794,34.0225,S,7
+105722236,Flies on the Wound,Trad,5.7,3.1,39,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Morbid Mound']",-116.1522,34.0963,S,7
+105721924,Garden Angel,Trad,5.10a,3.1,40,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'South Horror Rock']",-116.1467,33.9977,S,10
+105930170,Hit it Ethel,Trad,5.8,3.6,30,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'North Wonderland Approach', ""Gilligan's Island"", ""Mary Ann's Face""]",-116.178,34.0566,S,8
+105722560,Frontal Lobotomy,Trad,5.10b,3.8,26,2,"['California', 'Joshua Tree National Park', 'Comic Book Area', 'The Comic Strip', 'The Comic Strip - SW Face']",-116.1433,34.0131,S,10
+118299428,Baby Apes (Direct),Trad,5.12c/d,5,1,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Peyote Cracks Formation', 'Peyote Cracks Formation - E. Face (aka Bachar Toprope Wall)']",-116.1605,34.0224,S,12
+118119029,Moonshadow,Sport,5.12c,5,1,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'East Wall Inner (Exorcist Area)']",-116.1469,33.9998,S,12
+106108952,Tonic Boom,Sport,5.12d,5,1,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Tumbling Rainbow Formation']",-116.1713,34.0123,S,12
+105723022,Eureka!,Sport,5.12a/b,4.8,5,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'Rattlesnake Buttress']",-116.1408,34.0773,S,12
+108130853,Hotpants,Sport,5.13b,5,1,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Far East', 'Don Genaro Boulder']",-116.134,34.0509,S,13
+117973976,Brain Death,Trad,5.12a PG13,5,1,,"['California', 'Joshua Tree National Park', 'Comic Book Area', 'Box Canyon Area']",-116.1433,34.0121,PG13,12
+108300900,The Living Conjunction,TR,5.11+,5,1,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Roof Rock']",-116.1646,34.0229,S,11
+107560375,Naked Singularity,Trad,5.11b/c,5,1,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'South Astro Dome', 'South Astro Dome - East Face']",-116.1466,34.0382,S,11
+111950948,Blinds Man Bluff,Sport,5.13a PG13,5,1,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Theoretical Boulder']",-116.1393,33.9947,PG13,13
+105722740,Pat Adams Dihedral,Trad,5.11c/d,4.4,13,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Dairy Queen Wall', 'Dairy Queen Wall - Left Side']",-116.177,34.0216,S,11
+105723751,Quasar,Trad,5.12a R,5,1,1,"['California', 'Joshua Tree National Park', 'Loveland', 'Tiger Rocks']",-116.0538,34.0208,R,12
+107117801,Under the Radar,Sport,5.8,3,40,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - East Face', 'Hidden Slab']",-116.1553,34.0255,S,8
+106662064,Uppercut,Trad,5.10c,3.6,29,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Little Hunk', 'Little Hunk - SW Face', 'SW Face Center (The Solarium)']",-116.152,34.0265,S,10
+105846554,I'm So Embarrassed For You,Trad,5.7,2.8,45,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Playhouse Rock']",-116.1757,34.022,S,7
+105722275,Crank Queenie,Trad,5.8,2.9,42,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Varnished Wall']",-116.1549,34.0941,S,8
+106052767,Asian Friends,Trad,5.7+,3.6,28,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'The Middle Kingdom', 'Outer Mongolia', 'West Mongolia', 'Asian Friends Buttress']",-116.1721,34.0723,S,7
+105859282,Cherry Bomb,Trad,5.10c,3,40,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - West Face']",-116.1562,34.0251,S,10
+105844760,Anointed Seagull,Trad,5.8,3,40,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', 'Atlantis Area', 'Atlantis Wall', 'Atlantis Wall - Right']",-116.1802,34.0189,S,8
+105723958,Split Personality,Sport,5.11d,4.5,10,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Oyster Bar Area', 'The Asylum', 'Split Personality Rock']",-116.1424,33.99,S,11
+105725284,Days of Thunder,Trad,5.11b,4.5,11,1,"['California', 'Joshua Tree National Park', 'Real Hidden Valley', 'Tumbling Rainbow Formation']",-116.1713,34.0123,S,11
+106987035,Stingray,Trad,5.13d,4.8,4,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Near East', 'Iguana Dome']",-116.1343,34.0394,S,13
+105723079,Powered by Old English,Trad,5.11d,4.8,4,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Rattlesnake Canyon', 'The Valley of Kings', '[Redacted]']",-116.1417,34.0741,S,11
+105723040,The Highwayman,Trad,5.11c,4.5,10,1,"['California', 'Joshua Tree National Park', 'Indian Cove', 'Indian Cove Campground', 'Corona/Dos Equis Wall']",-116.1624,34.0936,S,11
+105725269,Perhaps,Trad,5.9,3.1,39,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Hall of Horrors Area', 'Hall of Horrors', 'South Horror Rock']",-116.1467,33.9977,S,9
+105724549,The Sowsuckle,Trad,5.12-,3.8,24,1,"['California', 'Joshua Tree National Park', 'Roadside Rocks', 'Dihedral Rock']",-116.1716,34.0198,S,12
+105814316,Wet T-Shirt Night,Trad,5.11c,4.3,14,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Patagonia Pile', 'Patagonia Pile - East Face']",-116.166,34.0213,S,11
+105823912,Crack    2,Trad,5.6,2.9,42,1,"['California', 'Joshua Tree National Park', 'Split Rocks', 'Isles in the Sky', 'Isles Corridor', 'Isles Corridor - Left Side']",-116.0589,34.0045,S,6
+111559714,Sole Fusion,Sport,5.12b,4.8,4,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Rock', 'Echo Rock - South Face']",-116.1551,34.0246,S,12
+105722953,Friend Eater,Trad,5.9,3.2,35,1,"['California', 'Joshua Tree National Park', 'Lost Horse Area', ""Lloyd's Rock""]",-116.1788,34.0175,S,9
+105724042,Tennis Shoe Crack,"Trad, TR",5.8,2.7,46,1,"['California', 'Joshua Tree National Park', 'The Outback', 'Steve Canyon Area', 'Steve Canyon', 'Tennis Shoe Block']",-116.1667,34.0189,S,8
+105725194,Santa Cruz,Trad,5.9,3.5,29,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Saddle Rocks Area', 'Saddle Rocks', 'Saddle Rocks - Skirt', 'Saddle Rocks - Skirt  (West Face)']",-116.14,33.9945,S,9
+105722422,Marital Sin,Trad,5.10c,3,39,1,"['California', 'Joshua Tree National Park', 'Barker Dam Area', 'Dissolution Rock']",-116.141,34.0277,S,10
+105725374,Deep Throat,Trad,5.9,3.9,21,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Mounds']",-116.1522,34.0258,S,9
+105969818,Circus,Trad,5.2,3.1,38,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Cap Rock Area', 'Cap Rock', 'Cap Rock - North Face']",-116.1635,33.9899,S,2
+105724507,Crack Queen,Trad,5.11a,4.2,15,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', ""Walt's Rocks"", ""Upper Walt's Rocks""]",-116.1009,34.0583,S,11
+106296967,Astroturf,Trad,5.10c R,4.6,7,2,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland South', 'Wonderland Valley', 'West Wonderland Valley', 'The Astro Domes', 'North Astro Dome', 'North Astro Dome - Northeast Face']",-116.1476,34.0389,R,10
+105723418,The S Cracker,Trad,5.11a/b,4.8,4,1,"['California', 'Joshua Tree National Park', 'Wonderland of Rocks', 'Wonderland North', 'Grey Giant Area', 'The Tombstone']",-116.1526,34.063,S,11
+106712181,Pearl Drops,Trad,5.11-,4.8,4,1,"['California', 'Joshua Tree National Park', 'Queen Mountain', 'The Pearls']",-116.1021,34.0481,S,11
+106544622,Eileen Dover,Sport,5.10c,3.4,30,1,"['California', 'Joshua Tree National Park', 'Echo Rock Area', 'Echo Cove', 'Ben Dover Face']",-116.1586,34.0255,S,10
+105964114,Event Horizon,Trad,5.10b R,3.7,25,1,"['California', 'Joshua Tree National Park', 'Sheep Pass Area', 'Cap Rock Area', 'Cap Rock', 'Cap Rock - North Face']",-116.1635,33.9899,R,10

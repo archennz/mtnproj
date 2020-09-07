@@ -27,7 +27,7 @@ def get_climbs():
 	'''
 	Downloads the climbs in a radius of the base coordinates
 	'''
-	json_routes = mp.getRoutesForLatLon(key, j_lat, j_long, maxDiff = '5.15d')
+	json_routes = mp.getRoutesForLatLon(key, j_lat, j_long, maxDistance = 20, maxResults = 500, maxDiff = '5.15d')
 	return json_routes['routes']
 
 
