@@ -17,34 +17,12 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # load data
 df = pd.read_csv('app_data/whole_jt_data.csv', index_col= 'id')
 
-# making graphics
 
-
-
-# or plotly.express as px
-#fig = go.Figure() # or any Plotly Express function e.g. px.bar(...)
-# fig.add_trace( ... )
-# fig.update_layout( ... )
-
-
-markdown_text = '''
-# Title
-## Subtitle
-### etc
-
-'''
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-# app.layout = html.Div([
-# 	dcc.Markdown(markdown_text),
-#     dcc.Graph(figure=fig)
-# ])
-
 
 server = app.server
-
-#app.run_server(debug=True, use_reloader=False)
 
 
 app.layout = html.Div(children=[
@@ -113,7 +91,10 @@ app.layout = html.Div(children=[
 	        ],
 	        value=['PG13', 'R', 'X'])
 	    ])
-    ])
+    ]),
+
+    dcc.Markdown("[Source code](https://github.com/archennz/mtnproj) on Github")
+
 ])
 def add_vibrations(data):
 	"""
