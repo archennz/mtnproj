@@ -53,8 +53,22 @@ app.layout = html.Div(children=[
 
     html.Div('''
         Select the grades you want to climb and filter for protection ratings(R-rated etc.). 
-        Then the heatmap will tell you where the best crags are. 
+        Then the heatmap will tell you where the best crags are. Using the spread drop down to 
+        adjust the clustering.
     	'''),
+
+    # html.Div(
+    #     dcc.RangeSlider(
+    # 	id = 'star-slider',
+    # 	min=df['stars'].min(),
+	   #  max=df['stars'].max(),
+	   #  marks = {str(star/10): str(star/10) for star in range(int(df['stars'].min())*10, int(df['stars'].max())*10+1)},
+	   #  step = None,
+	   #  value = [int(df['stars'].min()), int(df['stars'].max())]
+	   #  	)
+    # 	),
+
+
 
     # column 1
     html.Div(style = {'display':'flex' , 'flex-direction':'row'},
@@ -68,6 +82,15 @@ app.layout = html.Div(children=[
     html.Div(
     	style = {'background':'AliceBlue'},
     	children=[
+    	
+    	html.Label('Spread'),
+    	dcc.Dropdown(
+    	id = 'radius-option',
+    	options = [ { 'label':str(val), 'value': val} for val in [0,1,2,3,4,5,7,10,15,20]],
+    	value = 10
+    		)
+    	,
+
 	    html.Label('Grade Range (YDS)'),
 	    dcc.RangeSlider(
 	        id='grade-slider',
@@ -126,8 +149,9 @@ def filter_data(data, min_g, max_g, PG_bool, R_bool, X_bool):
 @app.callback(
      dash.dependencies.Output('graph', 'figure'),
      [dash.dependencies.Input('grade-slider', 'value'),
-     dash.dependencies.Input('safety', 'value')])
-def update_graph(grade_bounds, safety_fil):
+     dash.dependencies.Input('safety', 'value'),
+     dash.dependencies.Input('radius-option', 'value')])
+def update_graph(grade_bounds, safety_fil, radius_v):
 	[min_g, max_g] = grade_bounds
 	PG_bool = ('PG13' in safety_fil)
 	R_bool = ('R' in safety_fil)
@@ -136,7 +160,7 @@ def update_graph(grade_bounds, safety_fil):
 	add_cragnames(df)
 	df_filter = filter_data(df, min_g, max_g, PG_bool, R_bool, X_bool)
 	fig = px.density_mapbox(df_filter, 
-	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 10,
+	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = radius_v,
 	                        hover_name = 'name', 
 	                        hover_data = {'longitude':False, 'latitude':False, 'area':True, 'stars':True, 'rating':True},
 	                        #colorscale = Jet,
