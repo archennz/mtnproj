@@ -108,11 +108,15 @@ def add_vibrations(data):
 	data['longitude'] = data['longitude'] + long_del
 
 def add_cragnames(data):
-	"""Extract crag names from locations"""
+	"""
+	Extract crag names from locations
+	"""
 	data['area'] = data['location'].apply(lambda x : literal_eval(x)[0])
 
 def filter_negative_rating(data):
-	"""remove negative rating from database"""
+	"""
+	remove negative rating from database
+	"""
 	return data[data['stars']>=0]
 
 def filter_data(data, min_g, max_g, PG_bool, R_bool, X_bool):

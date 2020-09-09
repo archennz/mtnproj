@@ -8,11 +8,15 @@ from os import listdir
 # Some functions to help with processing dataframe
 
 def get_id(route_url):
-	""" extracts numbers from url"""
+	""" 
+	extracts numbers from url
+	"""
 	return ''.join([dig for dig in route_url if str.isdigit(dig)])
 
 def convert_grade(rating):
-	"""take X out of 5.XX"""
+	"""
+	take X out of 5.XX
+	"""
 	if rating[0] != '5':
 		return None
 	elif all(map(str.isdigit, rating[2:4])):
@@ -23,7 +27,9 @@ def convert_grade(rating):
 		return None
 
 def check_safety(rating):
-	"""check if R/X/PG13"""
+	"""
+	check if R/X/PG13
+	"""
 	if 'R' in rating:
 		return 'R'
 	elif 'PG13' in rating:
@@ -76,7 +82,9 @@ def get_all_routes():
 		get_routes_by_diff(i, i+200)
 
 def merge_files():
-	"""Combines all grades into one csv file"""
+	"""
+	Combines all grades into one csv file
+	"""
 	df = pd.concat([pd.read_csv(('data/'+filename), dtype = str) for filename in listdir('data')])
 	df = df.rename(columns = {'Rating': 'rating', 'Route Type': 'type', 'Avg Stars':'stars',
 		'Pitchees':'pitches', 'Area Latitude': 'latitude', 'Area Longitude':'longitude', 
