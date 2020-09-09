@@ -130,6 +130,9 @@ def add_cragnames(data):
 	"""Extract crag names from locations"""
 	data['area'] = data['location'].apply(lambda x : literal_eval(x)[0])
 
+def filter_negative_rating(data):
+	"""remove negative rating from database"""
+	return data[data['stars']>=0]
 
 def filter_data(data, min_g, max_g, PG_bool, R_bool, X_bool):
 	"""
@@ -158,7 +161,8 @@ def update_graph(grade_bounds, safety_fil, radius_v):
 	X_bool = ('X' in safety_fil)
 	add_vibrations(df)
 	add_cragnames(df)
-	df_filter = filter_data(df, min_g, max_g, PG_bool, R_bool, X_bool)
+	df_filter = filter_negative_rating(df)
+	df_filter = filter_data(df_filter, min_g, max_g, PG_bool, R_bool, X_bool)
 	fig = px.density_mapbox(df_filter, 
 	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = radius_v,
 	                        hover_name = 'name', 
