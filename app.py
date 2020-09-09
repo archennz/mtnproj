@@ -5,6 +5,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 import numpy as np
 
+from ast import literal_eval
+
 
 # setting seed for random number generator
 np.random.seed(20)
@@ -101,6 +103,11 @@ def add_vibrations(data):
 	data['latitude'] = data['latitude'] + lat_del
 	data['longitude'] = data['longitude'] + long_del
 
+def add_cragnames(data):
+	"""Extract crag names from locations"""
+	data['area'] = data['location'].apply(lambda x : literal_eval(x)[0])
+
+
 def filter_data(data, min_g, max_g, PG_bool, R_bool, X_bool):
 	"""
 	filters the dataframe according to users selection of grade range 
@@ -126,15 +133,15 @@ def update_graph(grade_bounds, safety_fil):
 	R_bool = ('R' in safety_fil)
 	X_bool = ('X' in safety_fil)
 	add_vibrations(df)
+	add_cragnames(df)
 	df_filter = filter_data(df, min_g, max_g, PG_bool, R_bool, X_bool)
 	fig = px.density_mapbox(df_filter, 
 	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 10,
 	                        hover_name = 'name', 
-	                        hover_data = {'longitude':False, 'latitude':False, 'stars':True, 'rating':True},
+	                        hover_data = {'longitude':False, 'latitude':False, 'area':True, 'stars':True, 'rating':True},
 	                        #colorscale = Jet,
 	                        center=dict(lat=34.012, lon=-116.168), zoom=10,
 	                        opacity = 0.7
-	                        #mapbox_style="stamen-terrain"
 	                       )
 	fig['layout']['uirevision'] = 'some-constant'
 	fig.update_layout(mapbox_style="open-street-map")
