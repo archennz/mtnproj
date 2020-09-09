@@ -49,12 +49,12 @@ server = app.server
 
 app.layout = html.Div(children=[
 	# heading text
-    html.H1('Where to climb? A visualization of better crags to hit.'),
+    html.H1('Where to climb? A visualization of the best climbing areas.'),
 
-    html.Div('''
-        Select the grades you want to climb and filter for protection ratings(R-rated etc.). 
-        Then the heatmap will tell you where the best crags are. Using the spread drop down to 
-        adjust the clustering.
+    dcc.Markdown('''
+        Select the grades you want to climb and filter for protection ratings (R-rated etc.). 
+        The heatmap will then tell you where the best crags are. You can change the spread to 
+        adjusting the clustering.
     	'''),
 
     # html.Div(
