@@ -4,15 +4,6 @@ import pandas as pd
 from io import StringIO
 from os import listdir
 
-# url = "https://www.mountainproject.com/route-finder-export?"\
-# 	"diffMaxaid=75260&diffMaxboulder=20050&diffMaxice=38500&diffMaxmixed=60000&diffMaxrock="+"2500"+"&"\
-# 	"diffMinaid=70000&diffMinboulder=20000&diffMinice=30000&diffMinmixed=50000&diffMinrock="+"2300"+"&"\
-# 	"is_sport_climb=1&is_top_rope=1&is_trad_climb=1&pitches=0&selectedIds=105720495&"\
-# 	"sort1=popularity+desc&sort2=rating&stars=0&type=rock&viewAll=1"
-
-# response = requests.get(url).text
-# df = pd.read_csv(StringIO(response))
-
 
 # Some functions to help with processing dataframe
 
@@ -41,6 +32,9 @@ def check_safety(rating):
 		return 'X'
 	else:
 		return 'S'
+
+
+# Functions to retrieve all routes 
 
 def get_routes_by_diff(min_grade, max_grade):
 	"""
@@ -82,6 +76,7 @@ def get_all_routes():
 		get_routes_by_diff(i, i+200)
 
 def merge_files():
+	"""Combines all grades into one csv file"""
 	df = pd.concat([pd.read_csv(('data/'+filename), dtype = str) for filename in listdir('data')])
 	df = df.rename(columns = {'Rating': 'rating', 'Route Type': 'type', 'Avg Stars':'stars',
 		'Pitchees':'pitches', 'Area Latitude': 'latitude', 'Area Longitude':'longitude', 
