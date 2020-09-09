@@ -31,7 +31,9 @@ app.layout = html.Div(children=[
 
     dcc.Markdown('''
         Select the grades you want to climb and filter for protection ratings (R-rated etc.). 
-        The heatmap will then tell you where the best crags are. You can change the spread to 
+        The heatmap will then tell you where the best crags are. 
+        Hover over the map to get more information on individual climbs.
+        You can change the spread to 
         adjusting the clustering.
     	'''),
 
