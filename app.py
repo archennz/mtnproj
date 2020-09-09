@@ -14,9 +14,6 @@ np.random.seed(20)
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-# load data
-df = pd.read_csv('app_data/whole_jt_data.csv', index_col= 'id')
-
 
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -24,6 +21,54 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 server = app.server
 
+# helper functions for loading data 
+
+def add_vibrations(data):
+	"""
+	spread climb locations sort of uniformly in a circle around base lat/long
+	"""
+	radius = np.random.uniform(0, 0.0003, len(data))
+	angle = np.random.uniform(0, 2*np.pi, len(data))
+	lat_del = radius* np.sin(angle)
+	long_del = radius* np.cos(angle)
+	data['latitude'] = data['latitude'] + lat_del
+	data['longitude'] = data['longitude'] + long_del
+
+def add_cragnames(data):
+	"""
+	Extract crag names from locations
+	"""
+	data['area'] = data['location'].apply(lambda x : literal_eval(x)[0])
+
+def filter_negative_rating(data):
+	"""
+	remove negative rating from database
+	"""
+	return data[data['stars']>=0]
+
+def filter_data(data, min_g, max_g, PG_bool, R_bool, X_bool):
+	"""
+	filters the dataframe according to users selection of grade range 
+	and safety ratings
+	"""
+	fil_data = data[(data['grade'] >= min_g) & (data['grade']<= max_g)]
+	if PG_bool == False:
+		fil_data = fil_data[(fil_data['safety'] == 'PG13') ==False]
+	if R_bool == False:
+		fil_data = fil_data[(fil_data['safety'] == 'R') ==False]
+	if X_bool == False:
+		fil_data = fil_data[(fil_data['safety'] == 'X') ==False]
+	return fil_data		
+
+
+# load data
+df = pd.read_csv('app_data/whole_jt_data.csv', index_col= 'id')
+add_vibrations(df)
+add_cragnames(df)
+df = filter_negative_rating(df)
+
+
+# app proper
 
 app.layout = html.Div(children=[
 	# heading text
@@ -98,42 +143,8 @@ app.layout = html.Div(children=[
     dcc.Markdown("[Source code](https://github.com/archennz/mtnproj) on Github")
 
 ])
-def add_vibrations(data):
-	"""
-	spread climb locations sort of uniformly in a circle around base lat/long
-	"""
-	radius = np.random.uniform(0, 0.0003, len(data))
-	angle = np.random.uniform(0, 2*np.pi, len(data))
-	lat_del = radius* np.sin(angle)
-	long_del = radius* np.cos(angle)
-	data['latitude'] = data['latitude'] + lat_del
-	data['longitude'] = data['longitude'] + long_del
 
-def add_cragnames(data):
-	"""
-	Extract crag names from locations
-	"""
-	data['area'] = data['location'].apply(lambda x : literal_eval(x)[0])
 
-def filter_negative_rating(data):
-	"""
-	remove negative rating from database
-	"""
-	return data[data['stars']>=0]
-
-def filter_data(data, min_g, max_g, PG_bool, R_bool, X_bool):
-	"""
-	filters the dataframe according to users selection of grade range 
-	and safety ratings
-	"""
-	fil_data = data[(data['grade'] >= min_g) & (data['grade']<= max_g)]
-	if PG_bool == False:
-		fil_data = fil_data[(fil_data['safety'] == 'PG13') ==False]
-	if R_bool == False:
-		fil_data = fil_data[(fil_data['safety'] == 'R') ==False]
-	if X_bool == False:
-		fil_data = fil_data[(fil_data['safety'] == 'X') ==False]
-	return fil_data		
 
 
 @app.callback(
@@ -146,10 +157,7 @@ def update_graph(grade_bounds, safety_fil, radius_v):
 	PG_bool = ('PG13' in safety_fil)
 	R_bool = ('R' in safety_fil)
 	X_bool = ('X' in safety_fil)
-	add_vibrations(df)
-	add_cragnames(df)
-	df_filter = filter_negative_rating(df)
-	df_filter = filter_data(df_filter, min_g, max_g, PG_bool, R_bool, X_bool)
+	df_filter = filter_data(df, min_g, max_g, PG_bool, R_bool, X_bool)
 	fig = px.density_mapbox(df_filter, 
 	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = radius_v,
 	                        hover_name = 'name', 
