@@ -3,11 +3,17 @@ import plotly.express as px
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import numpy as np
+
+
+# setting seed for random number generator
+np.random.seed(20)
+
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # load data
-data = pd.read_csv('names.csv', index_col= 'id')
+df = pd.read_csv('app_data/whole_jt_data.csv', index_col= 'id')
 
 # making graphics
 
@@ -44,7 +50,7 @@ app.layout = html.Div(children=[
     html.H1('Where to climb? A visualization of better crags to hit.'),
 
     html.Div('''
-        Select the grades you want to climb and filter for commitment(no X-rated etc). 
+        Select the grades you want to climb and filter for protection ratings(R-rated etc.). 
         Then the heatmap will tell you where the best crags are. 
     	'''),
 
@@ -60,15 +66,15 @@ app.layout = html.Div(children=[
     html.Div(
     	style = {'background':'AliceBlue'},
     	children=[
-	    html.Label('Grade Range'),
+	    html.Label('Grade Range (YDS)'),
 	    dcc.RangeSlider(
 	        id='grade-slider',
-	        min=data['grade'].min(),
-	        max=data['grade'].max(),
-	        marks={str(grade): ('5.'+str(grade)) for grade in range(data['grade'].min(), data['grade'].max()+1)},
+	        min=df['grade'].min(),
+	        max=df['grade'].max()+1,
+	        marks={str(grade): ('5.'+str(grade)) for grade in range(df['grade'].min(), df['grade'].max()+2)},
 	        step=None,
 	        allowCross = False,
-	        value = [data['grade'].min()+1, data['grade'].max()],
+	        value = [df['grade'].min()+1, df['grade'].max()],
 	        vertical = True
 	    ),
 
@@ -84,9 +90,18 @@ app.layout = html.Div(children=[
 	    ])
     ])
 ])
+def add_vibrations(data):
+	"""
+	spread climb locations sort of uniformly in a circle around base lat/long
+	"""
+	radius = np.random.uniform(0, 0.0003, len(data))
+	angle = np.random.uniform(0, 2*np.pi, len(data))
+	lat_del = radius* np.sin(angle)
+	long_del = radius* np.cos(angle)
+	data['latitude'] = data['latitude'] + lat_del
+	data['longitude'] = data['longitude'] + long_del
 
-
-def filter_data(min_g, max_g, PG_bool, R_bool, X_bool):
+def filter_data(data, min_g, max_g, PG_bool, R_bool, X_bool):
 	"""
 	filters the dataframe according to users selection of grade range 
 	and safety ratings
@@ -110,9 +125,10 @@ def update_graph(grade_bounds, safety_fil):
 	PG_bool = ('PG13' in safety_fil)
 	R_bool = ('R' in safety_fil)
 	X_bool = ('X' in safety_fil)
-	fil_data = filter_data(min_g, max_g, PG_bool, R_bool, X_bool)
-	fig = px.density_mapbox(fil_data, 
-	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 15,
+	add_vibrations(df)
+	df_filter = filter_data(df, min_g, max_g, PG_bool, R_bool, X_bool)
+	fig = px.density_mapbox(df_filter, 
+	                        lat = 'latitude', lon = 'longitude', z = 'stars', radius = 10,
 	                        hover_name = 'name', 
 	                        hover_data = {'longitude':False, 'latitude':False, 'stars':True, 'rating':True},
 	                        #colorscale = Jet,

@@ -80,7 +80,7 @@ def merge_files():
 	df = pd.concat([pd.read_csv(('data/'+filename), dtype = str) for filename in listdir('data')])
 	df = df.rename(columns = {'Rating': 'rating', 'Route Type': 'type', 'Avg Stars':'stars',
 		'Pitchees':'pitches', 'Area Latitude': 'latitude', 'Area Longitude':'longitude', 
-		'Pitches':'pitches'})
+		'Pitches':'pitches', 'Route':'name'})
 	df.to_csv('app_data/whole_jt_data.csv', index = False)
 
 

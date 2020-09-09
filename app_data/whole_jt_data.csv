@@ -1,4 +1,4 @@
-Route,URL,stars,type,rating,pitches,Length,latitude,longitude,id,location,grade,safety,Unnamed: 0
+name,URL,stars,type,rating,pitches,Length,latitude,longitude,id,location,grade,safety,Unnamed: 0
 Aiguille de Joshua Tree (aka The Finger of Hercules),https://www.mountainproject.com/route/105721981/aiguille-de-joshua-tree-aka-the-finger-of-hercules,3.0,Trad,5.5 X,1,30,34.01514,-116.17858,105721981,"['Aiguille de Joshua Tree', 'Lost Horse Area', 'Joshua Tree National Park', 'California']",5,X,
 The Chief,https://www.mountainproject.com/route/105724168/the-chief,2.4,Trad,5.5,1,40,34.04045,-116.17781,105724168,"['Reggie Dome', 'North Wonderland Approach', 'Wonderland North', 'Wonderland of Rocks', 'Joshua Tree National Park', 'California']",5,S,
 Men with Cow's Heads,https://www.mountainproject.com/route/105722410/men-with-cows-heads,2.0,Trad,5.5,1,50,34.01886,-116.18016,105722410,"['Atlantis Wall - Right', 'Atlantis Wall', 'Atlantis Area', 'Lost Horse Area', 'Joshua Tree National Park', 'California']",5,S,
